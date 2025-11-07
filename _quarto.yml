@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+lang: en
+
+website:
+  title: "SCGIS - Vancouver"
+  navbar:
+    search: true
+    pinned: false
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    tools:
+      - icon: github
+        href: https://github.com/scgis-canada-vancouver
+        text: "GitHub profile"
+      - icon: envelope
+        href: mailto:scgis.canada.vancouver@gmail.com
+        text: "Email the Chapter Leaders"
+      - icon: instagram
+        href: https://instagram.com/scgis-canada-vancouver
+        text: "Follow us on Instgram"
+
+format:
+  html:
+    theme:
+      - brite
+    css: styles.css
+    toc: true
+
+
+

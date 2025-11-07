@@ -1,0 +1,18 @@
+---
+title: "Vancouver, Canada Chapter - SCGIS"
+---
+
+Welcome to the homepage for the newly formed Vancouver, BC Canada Chapter of the Society for Conservation GIS.
+
+We aim to bring together the regional community of conservation related Geographic Information System (GIS) individuals across Vancouver and the greater province of British Columbia.
+
+Our chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practioners and GIS technology by supporting communication and networking, scholarships, and training across the world. Membership is open to anyone looking to engage in a GIS conservation related community.
+
+::: {.callout-note}
+## Sign up for our mailing list
+[**Google Form Link**](https://docs.google.com/forms/d/e/1FAIpQLSdvySmF4ZhXC4kmaaAvDoaALrYDDk9Q5dtNU0d_tdJG-B9Avw/viewform "Google Form to sign up for our emailing list about upcoming events")
+:::
+
+# Upcoming Events
+
+January First Event - Date TBD
