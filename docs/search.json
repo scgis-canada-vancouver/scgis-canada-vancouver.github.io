@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Vancouver, Canada Chapter - SCGIS",
     "section": "",
-    "text": "Welcome to the homepage for the newly formed Vancouver, BC Canada Chapter of the Society for Conservation GIS.\nWe aim to bring together the regional community of conservation related Geographic Information System (GIS) individuals across Vancouver and the greater province of British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practioners and GIS technology by supporting communication and networking, scholarships, and training across the world. Membership is open to anyone looking to engage in a GIS conservation related community."
+    "text": "Sign up\n\n\nJoin the mailing list for event updates.\n\n\nEmail \nFirst Name \nLast Name \nAffiliation \n\nSign Up\n\n\n\n\n\n\n\nWelcome to the homepage for the newly formed Vancouver, BC Canada Chapter of the Society for Conservation GIS.\nWe aim to bring together the regional community of conservation related Geographic Information System (GIS) individuals across Vancouver and the greater province of British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practioners and GIS technology by supporting communication and networking, scholarships, and training across the world. Membership is open to anyone looking to engage in a GIS conservation related community.\n\n\n\n\n\n\nSign up for our mailing list\n\n\n\nGoogle Form Link\n\n\n\nUpcoming Events\nJanuary First Event - Date TBD"
   },
   {
     "objectID": "about.html",
@@ -25,6 +25,6 @@
     "href": "index.html#join-the-list",
     "title": "Vancouver, Canada Chapter - SCGIS",
     "section": "Join the list",
-    "text": "Join the list\n\n\n\nEmail \nFirst name \nLast name \n\nSign up"
+    "text": "Join the list\n\n\n\nSign up\n\n\nEnter your details to join the list.\n\n \n\n&lt;!-- Field names must match your Apps Script (email, firstName, lastName) --&gt;\n&lt;label for=\"email\"&gt;Email&lt;/label&gt;\n&lt;input id=\"email\" name=\"email\" type=\"email\" required autocomplete=\"email\" /&gt;\n\n&lt;label for=\"firstName\"&gt;First Name&lt;/label&gt;\n&lt;input id=\"firstName\" name=\"firstName\" type=\"text\" required autocomplete=\"given-name\" /&gt;\n\n&lt;label for=\"lastName\"&gt;Last Name&lt;/label&gt;\n&lt;input id=\"lastName\" name=\"lastName\" type=\"text\" required autocomplete=\"family-name\" /&gt;\n\n&lt;button type=\"submit\"&gt;Sign Up&lt;/button&gt;"
   }
 ]

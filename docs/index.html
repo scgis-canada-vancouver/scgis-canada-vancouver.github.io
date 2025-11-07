@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,21 +109,21 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link active" data-scroll-target="#upcoming-events">Upcoming Events</a>
-  <ul class="collapse">
-  <li><a href="#join-the-list" id="toc-join-the-list" class="nav-link" data-scroll-target="#join-the-list">Join the list</a></li>
-  </ul></li>
+  <li><a href="#upcoming-events" id="toc-upcoming-events" class="nav-link active" data-scroll-target="#upcoming-events">Upcoming Events</a></li>
   </ul>
 </nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -144,7 +144,65 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the homepage for the newly formed Vancouver, BC Canada Chapter of the Society for Conservation GIS.</p>
+<!-- ===== Right sidebar panel ===== -->
+
+<!-- ===== End sidebar panel ===== -->
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="card" style="padding:1rem; border-radius:10px;">
+<h5 class="card-title anchored" style="margin:0;">
+Sign up
+</h5>
+<p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
+Join the mailing list for event updates.
+</p>
+<form id="signup-form">
+<p><label for="email" style="display:block; margin-top:.6rem; font-weight:600;">Email</label> <input id="email" name="email" type="email" required="" autocomplete="email" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;"></p>
+<p><label for="firstName" style="display:block; margin-top:.6rem; font-weight:600;">First Name</label> <input id="firstName" name="firstName" type="text" required="" autocomplete="given-name" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;"></p>
+<p><label for="lastName" style="display:block; margin-top:.6rem; font-weight:600;">Last Name</label> <input id="lastName" name="lastName" type="text" required="" autocomplete="family-name" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;"></p>
+<p><label for="affiliation" style="display:block; margin-top:.6rem; font-weight:600;">Affiliation</label> <input id="affiliation" name="affiliation" type="text" autocomplete="organization" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;"></p>
+<button type="submit" style="margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer;">
+Sign Up
+</button>
+</form>
+<div id="signup-msg" aria-live="polite" style="margin-top:.6rem; font-size:.95rem;">
+
+</div>
+</div>
+<script>
+  // Your deployed Apps Script Web App URL (must be the /exec URL)
+  const WEB_APP_URL =
+    "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
+
+  const form = document.getElementById("signup-form");
+  const msg  = document.getElementById("signup-msg");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "Submitting…";
+
+    const payload = {
+      email:       document.getElementById("email").value.trim(),
+      firstName:   document.getElementById("firstName").value.trim(),
+      lastName:    document.getElementById("lastName").value.trim(),
+      affiliation: document.getElementById("affiliation").value.trim()
+    };
+
+    try {
+      await fetch(WEB_APP_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      form.reset();
+      msg.textContent = "Thanks! You're on the list.";
+    } catch (err) {
+      console.error(err);
+      msg.textContent = "Sorry—something went wrong. Please try again.";
+    }
+  });
+</script>
+</div></div><p>Welcome to the homepage for the newly formed Vancouver, BC Canada Chapter of the Society for Conservation GIS.</p>
 <p>We aim to bring together the regional community of conservation related Geographic Information System (GIS) individuals across Vancouver and the greater province of British Columbia.</p>
 <p>Our chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practioners and GIS technology by supporting communication and networking, scholarships, and training across the world. Membership is open to anyone looking to engage in a GIS conservation related community.</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -163,66 +221,8 @@ Sign up for our mailing list
 <section id="upcoming-events" class="level1">
 <h1>Upcoming Events</h1>
 <p>January First Event - Date TBD</p>
-<section id="join-the-list" class="level2">
-<h2 class="anchored" data-anchor-id="join-the-list">Join the list</h2>
-<style>
-  .signup { max-width: 420px; padding: 1rem; border: 1px solid #ddd; border-radius: 10px; }
-  .signup label { display:block; margin-top:.6rem; font-weight:600; }
-  .signup input { width:100%; padding:.5rem; margin-top:.25rem; border:1px solid #ccc; border-radius:8px; }
-  .signup button { margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer; }
-  #signup-msg { margin-top:.6rem; font-size:.95rem; }
-</style>
-<div class="signup">
-<form id="signup-form">
-<p><label for="email">Email</label> <input id="email" name="email" type="email" required="" autocomplete="email"></p>
-<p><label for="firstName">First name</label> <input id="firstName" name="firstName" type="text" required="" autocomplete="given-name"></p>
-<p><label for="lastName">Last name</label> <input id="lastName" name="lastName" type="text" required="" autocomplete="family-name"></p>
-<button type="submit">
-Sign up
-</button>
-</form>
-<div id="signup-msg" aria-live="polite">
-
-</div>
-</div>
-<script>
-  // 1) Put your Apps Script "web app" URL here (must be the /exec URL)
-  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwi-xEPuaITtXY82G31rBUt8BfbsMnaCVTPRoWbKC8Sr0bvIG4IRkoOTrRpngJfnw/exec";
-
-  const form = document.getElementById("signup-form");
-  const msg  = document.getElementById("signup-msg");
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    msg.textContent = "Submitting…";
-
-    // Collect fields; names must match what your Apps Script expects
-    const payload = {
-      email:     document.getElementById("email").value.trim(),
-      firstName: document.getElementById("firstName").value.trim(),
-      lastName:  document.getElementById("lastName").value.trim()
-    };
-
-    try {
-      // Using no-cors avoids CORS issues with Apps Script; we can't read the response, but the row will be added.
-      await fetch(WEB_APP_URL, {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-
-      form.reset();
-      msg.textContent = "Thanks! You're on the list.";
-    } catch (err) {
-      console.error(err);
-      msg.textContent = "Sorry—something went wrong. Please try again.";
-    }
-  });
-</script>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

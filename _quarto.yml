@@ -30,6 +30,7 @@ format:
       - brite
     css: styles.css
     toc: true
+    toc-location: left
 
 
 
