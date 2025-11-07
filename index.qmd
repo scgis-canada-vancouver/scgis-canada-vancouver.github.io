@@ -16,3 +16,68 @@ Our chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS)
 # Upcoming Events
 
 January First Event - Date TBD
+
+## Join the list
+
+```{=html}
+<style>
+  .signup { max-width: 420px; padding: 1rem; border: 1px solid #ddd; border-radius: 10px; }
+  .signup label { display:block; margin-top:.6rem; font-weight:600; }
+  .signup input { width:100%; padding:.5rem; margin-top:.25rem; border:1px solid #ccc; border-radius:8px; }
+  .signup button { margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer; }
+  #signup-msg { margin-top:.6rem; font-size:.95rem; }
+</style>
+
+<div class="signup">
+  <form id="signup-form">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required autocomplete="email" />
+
+    <label for="firstName">First name</label>
+    <input id="firstName" name="firstName" type="text" required autocomplete="given-name" />
+
+    <label for="lastName">Last name</label>
+    <input id="lastName" name="lastName" type="text" required autocomplete="family-name" />
+
+    <button type="submit">Sign up</button>
+  </form>
+  <div id="signup-msg" aria-live="polite"></div>
+</div>
+
+<script>
+  // 1) Put your Apps Script "web app" URL here (must be the /exec URL)
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwi-xEPuaITtXY82G31rBUt8BfbsMnaCVTPRoWbKC8Sr0bvIG4IRkoOTrRpngJfnw/exec";
+
+  const form = document.getElementById("signup-form");
+  const msg  = document.getElementById("signup-msg");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "Submitting…";
+
+    // Collect fields; names must match what your Apps Script expects
+    const payload = {
+      email:     document.getElementById("email").value.trim(),
+      firstName: document.getElementById("firstName").value.trim(),
+      lastName:  document.getElementById("lastName").value.trim()
+    };
+
+    try {
+      // Using no-cors avoids CORS issues with Apps Script; we can't read the response, but the row will be added.
+      await fetch(WEB_APP_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+      form.reset();
+      msg.textContent = "Thanks! You're on the list.";
+    } catch (err) {
+      console.error(err);
+      msg.textContent = "Sorry—something went wrong. Please try again.";
+    }
+  });
+</script>
+
+
