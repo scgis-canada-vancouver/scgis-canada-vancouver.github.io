@@ -46,7 +46,7 @@ January First Event - Date TBD
 
 <script>
   // 1) Put your Apps Script "web app" URL here (must be the /exec URL)
-  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwi-xEPuaITtXY82G31rBUt8BfbsMnaCVTPRoWbKC8Sr0bvIG4IRkoOTrRpngJfnw/exec";
+  const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbx5kxPp8jpES267SUobXkIzPxCJjs5CBdfHplOctDeeIPk8-QZDeCP_jVbjEoS1gteg/exec";
 
   const form = document.getElementById("signup-form");
   const msg  = document.getElementById("signup-msg");
