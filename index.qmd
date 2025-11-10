@@ -1,9 +1,9 @@
 ---
-title: "Vancouver, Canada Chapter - SCGIS"
+title: "Vancouver Chapter - SCGIS"
+title-block-banner: "img/home/yvr_dsm.png"
 ---
 
 
-<!-- ===== Right sidebar panel ===== -->
 ::: {.column-margin}
 
 ```{=html}
@@ -40,7 +40,7 @@ title: "Vancouver, Canada Chapter - SCGIS"
 </div>
 
 <script>
-  // Your deployed Apps Script Web App URL (must be the /exec URL)
+  
   const WEB_APP_URL =
     "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
 
@@ -74,7 +74,6 @@ title: "Vancouver, Canada Chapter - SCGIS"
   });
 </script>
 :::
-<!-- ===== End sidebar panel ===== -->
 
 
 
@@ -84,14 +83,10 @@ We aim to bring together the regional community of conservation related Geograph
 
 Our chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practioners and GIS technology by supporting communication and networking, scholarships, and training across the world. Membership is open to anyone looking to engage in a GIS conservation related community.
 
-::: {.callout-note}
-## Sign up for our mailing list
-[**Google Form Link**](https://docs.google.com/forms/d/e/1FAIpQLSdvySmF4ZhXC4kmaaAvDoaALrYDDk9Q5dtNU0d_tdJG-B9Avw/viewform "Google Form to sign up for our emailing list about upcoming events")
-:::
 
 # Upcoming Events
 
-January First Event - Date TBD
+January will be our first event - Date TBD
 
 
 
