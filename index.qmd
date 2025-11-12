@@ -7,7 +7,7 @@ title-block-banner: "img/home/yvr_dsm.png"
 
 ```{=html}
 <div class="card" style="padding:1rem; border-radius:10px;">
-  <h5 class="card-title" style="margin:0;">Sign up</h5>
+  <h5 class="card-title" style="margin:0;">Mailing List</h5>
   <p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
     Join our mailing list for updates on future events!
   </p>
@@ -31,7 +31,7 @@ title-block-banner: "img/home/yvr_dsm.png"
 
     <button type="submit"
             style="margin-top:1rem; padding:.6rem 1rem; border: 1px solid #000; border-radius:8px; cursor:pointer; background-color: #277d8e; color: white;">
-      Mailing List
+      Sign Up
     </button>
   </form>
 
@@ -78,7 +78,9 @@ Welcome to the homepage for the newly formed (est November 2025) Vancouver, BC C
 
 This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 
-Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS)](https://www.scgis.org/ "SCGIS Organization Homepage"). The SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected [chapters](https://www.scgis.org/chapters "Check out other SCGIS chapters around the world!")in various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community.
+Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS)](https://www.scgis.org/ "SCGIS Organization Homepage"). 
+
+The SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected [chapters](https://www.scgis.org/chapters "Check out other SCGIS chapters around the world!")in various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community.
 
 # Upcoming Events
 

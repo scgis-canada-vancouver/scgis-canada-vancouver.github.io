@@ -1,12 +1,14 @@
 ---
 title: "About Us"
-title-block-banner: "img/home/yvr_dsm.png"
 format: html
+title-block-banner: true
 ---
 
-# About SCGIS:
+# About SCGIS
 
 The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.
+
+[Learn more about their mission here](https://www.scgis.org/about) 
 
 # Chapter Representatives
 
