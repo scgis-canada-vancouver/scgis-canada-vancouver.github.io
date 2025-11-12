@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.\nIf you have a useful GIS/conservation resource you don’t see listed, please let us know"
+  },
+  {
+    "objectID": "resources.html#data-portals",
+    "href": "resources.html#data-portals",
+    "title": "Resources",
+    "section": "Data Portals",
+    "text": "Data Portals\nThese are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
+  },
+  {
+    "objectID": "resources.html#conservation-environmental-data-hubs",
+    "href": "resources.html#conservation-environmental-data-hubs",
+    "title": "Resources",
+    "section": "Conservation & Environmental Data Hubs",
+    "text": "Conservation & Environmental Data Hubs\nThese resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.\n\nBC Conservation Data Centre (CDC)\n\nInformation on species and ecosystems at risk in B.C.\n\niMapBC\n\nAn interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.\n\nCommunity Mapping Network (CMN)\n\nA network that supports community-based mapping and data collection."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "About SCGIS:\nThe Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.\n\n\nChapter Representatives\nRamon Melser\nSadie Russell\nLiam Irwin"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCGIS Vancouver",
+    "section": "",
+    "text": "Join our mailing list for updates on future events!\n\n\nEmail \nFirst Name \nLast Name \nAffiliation \n\nMailing List\nWelcome to the homepage for the newly formed (est November 2025) Vancouver, BC Canada Chapter of the Society for Conservation GIS.\nThis group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS). The SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected chaptersin various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community."
+  },
+  {
+    "objectID": "index.html#january-2026",
+    "href": "index.html#january-2026",
+    "title": "SCGIS Vancouver",
+    "section": "January 2026",
+    "text": "January 2026\nWe plan to host our kick-off event early next year - Date and subject TBD!"
+  }
+]
