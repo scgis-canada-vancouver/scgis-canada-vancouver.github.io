@@ -9,7 +9,7 @@ title-block-banner: "img/home/yvr_dsm.png"
 <div class="card" style="padding:1rem; border-radius:10px;">
   <h5 class="card-title" style="margin:0;">Sign up</h5>
   <p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
-    Join the mailing list for event updates.
+    Join our mailing list for updates on future events!
   </p>
 
   <form id="signup-form">
@@ -30,8 +30,8 @@ title-block-banner: "img/home/yvr_dsm.png"
            style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
 
     <button type="submit"
-            style="margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer;">
-      Sign Up
+            style="margin-top:1rem; padding:.6rem 1rem; border: 1px solid #000; border-radius:8px; cursor:pointer; background-color: #277d8e; color: white;">
+      Mailing List
     </button>
   </form>
 
@@ -74,7 +74,7 @@ title-block-banner: "img/home/yvr_dsm.png"
 </script>
 :::
 
-Welcome to the homepage for the newly formed (November, 2025) Vancouver, BC Canada Chapter of the Society for Conservation GIS.
+Welcome to the homepage for the newly formed (est November 2025) Vancouver, BC Canada Chapter of the Society for Conservation GIS.
 
 This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 
@@ -82,10 +82,19 @@ Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS
 
 # Upcoming Events
 
-As a chapter we plan to host semi-regular events consisting of talks, workshops, and meetups including citizen science/conservation events outdoors, and socials! 
+As a chapter, we plan to host a mix of events, including:
+
+- Talks from conservation and GIS related groups ([contact us](mailto:scgis.canada.vancouver@gmail.com) if you're interested in presenting)
+
+- Hands-on workshops on topics including data collection/portals, GIS analysis, remote sensing, mapping and data visualization
+
+- Outdoor citizen science and conservation related events
+- More casual social meetups including hikes and happy hours
+
+
 
 This schedule will be developed and begin in 2026, sign up to our mailing list (above) and follow us on our social media page for updates.
 
 
 ## January 2026
-We plan to host our first event early next year - Date and subject TBD!
+We plan to host our kick-off event early next year - Date and subject TBD!

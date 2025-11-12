@@ -1,5 +1,7 @@
 ---
 title: "About Us"
+title-block-banner: "img/home/yvr_dsm.png"
+format: html
 ---
 
 # About SCGIS:

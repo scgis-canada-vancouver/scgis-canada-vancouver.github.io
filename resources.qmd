@@ -1,0 +1,35 @@
+---
+title: "Resources"
+format: html
+---
+
+Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.
+
+If you have a useful GIS/conservation resource you don't see listed, please [let us know](mailto:scgis.canada.vancouver@gmail.com)
+
+## Data Portals
+
+These are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.
+
+* [**City of Vancouver Open Data Portal**](https://opendata.vancouver.ca/explore/)
+    * The city's portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.
+* [**Metro Vancouver Open Data Portal**](https://open-data-portal-metrovancouver.hub.arcgis.com/)
+    * Provides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.
+* [**BC Data Catalogue**](https://catalogue.data.gov.bc.ca/)
+    * Contains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.
+* [**Government of Canada Open Data Portal**](https://open.canada.ca/en/open-data)
+    * The federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada).
+
+
+
+## Conservation & Environmental Data Hubs
+
+These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.
+
+* [**BC Conservation Data Centre (CDC)**](https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre)
+    * Information on species and ecosystems at risk in B.C. 
+* [**iMapBC**](https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc)
+    * An interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.
+* [**Community Mapping Network (CMN)**](https://cmnmaps.ca/)
+    * A network that supports community-based mapping and data collection. 
+
