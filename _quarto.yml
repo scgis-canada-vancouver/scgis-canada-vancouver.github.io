@@ -5,7 +5,7 @@ project:
 lang: en
 
 website:
-  title: "SCGIS - Vancouver"
+  title: "SCGIS Vancouver"
   navbar:
     search: true
     pinned: false
@@ -19,7 +19,7 @@ website:
         text: "GitHub profile"
       - icon: envelope
         href: mailto:scgis.canada.vancouver@gmail.com
-        text: "Email the Chapter Leaders"
+        text: "Email the Chapter"
       - icon: instagram
         href: https://instagram.com/scgis.vancouver
         text: "Follow us on Instgram"
@@ -29,7 +29,7 @@ format:
     theme:
       - brite
     css: styles.css
-    toc: true
+    toc: false
     toc-location: left
 
 

@@ -4,14 +4,12 @@ title: "About Us"
 
 # About SCGIS:
 
-The Society for Conservation GIS is...
+The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.
 
-# Our Chapter 
+# Chapter Representatives
 
-## Chapter Representatives
+Ramon Melser
 
-### Ramon Melser
+Sadie Russell
 
-### Sadie Russell
-
-### Liam Irwin
+Liam Irwin

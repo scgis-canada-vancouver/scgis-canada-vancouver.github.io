@@ -1,3 +1,28 @@
+
+/* Navbar */
+.navbar {
+  background-color: #481f70;
+}
+
+.navbar .navbar-brand {
+  color: #FFFFFF;
+}
+
+.navbar .nav-link {
+  color: #FFFFFF;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #75d054;
+}
+
+.navbar .nav-link.active {
+  color: #fde725;
+  font-weight: bold;
+}
+
+
 /* --- Custom Hero Banner Styles --- */
 /* Adapted from banner for https://labs.ala.org.au/ quarto site */
 
