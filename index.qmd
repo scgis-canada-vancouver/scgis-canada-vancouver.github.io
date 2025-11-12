@@ -74,7 +74,7 @@ title-block-banner: "img/home/yvr_dsm.png"
 </script>
 :::
 
-Welcome to the homepage for the ***newly formed*** Vancouver, BC Canada Chapter of the Society for Conservation GIS.
+Welcome to the homepage for the newly formed (November, 2025) Vancouver, BC Canada Chapter of the Society for Conservation GIS.
 
 This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 
@@ -82,4 +82,10 @@ Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS
 
 # Upcoming Events
 
-January will be our first event - Date TBD
+As a chapter we plan to host semi-regular events consisting of talks, workshops, and meetups including citizen science/conservation events outdoors, and socials! 
+
+This schedule will be developed and begin in 2026, sign up to our mailing list (above) and follow us on our social media page for updates.
+
+
+## January 2026
+We plan to host our first event early next year - Date and subject TBD!
