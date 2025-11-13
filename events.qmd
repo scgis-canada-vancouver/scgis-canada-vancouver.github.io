@@ -1,7 +1,7 @@
 ---
 title: "Events"
 format: html
-title-block-banner: true
+title-block-banner: "img/home/yvr_dsm_eastvan.png"
 ---
 
 ::: panel-tabset

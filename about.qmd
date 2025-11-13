@@ -1,10 +1,10 @@
 ---
 title: "About Us"
 format: html
-title-block-banner: true
+title-block-banner: "img/home/yvr_dsm_stanley.png"
 ---
 
-# About SCGIS
+# About the SCGIS
 
 The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.
 
@@ -12,8 +12,10 @@ The Society for Conservation GIS is an all-volunteer U.S. based non-profit organ
 
 # Chapter Representatives
 
-Ramon Melser
+## Ramon Melser
 
-Sadie Russell
+## Sadie Russell
 
-Liam Irwin
+## Liam Irwin
+
+Liam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond.

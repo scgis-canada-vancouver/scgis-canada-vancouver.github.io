@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 format: html
-title-block-banner: true
+title-block-banner: "img/home/yvr_dsm_wide.png"
 ---
 
 Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.
