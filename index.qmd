@@ -3,51 +3,43 @@ title: "SCGIS Vancouver"
 title-block-banner: "img/home/yvr_dsm.png"
 ---
 
-::::: column-margin
-```{=html}
-
-:::: {.card style="padding:1rem; border-radius:10px;"}
-<h5 class="card-title" style="margin:0;">
-
-Mailing List
-
-</h5>
-
-<p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
-
-Join our mailing list for updates on future events!
-
-</p>
-
-<form id="signup-form">
-
-<label for="email" style="display:block; margin-top:.6rem; font-weight:600;">Email</label> <input id="email" name="email" type="email" required autocomplete="email"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-<label for="firstName" style="display:block; margin-top:.6rem; font-weight:600;">First Name</label> <input id="firstName" name="firstName" type="text" required autocomplete="given-name"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-<label for="lastName" style="display:block; margin-top:.6rem; font-weight:600;">Last Name</label> <input id="lastName" name="lastName" type="text" required autocomplete="family-name"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-<label for="affiliation" style="display:block; margin-top:.6rem; font-weight:600;">Affiliation</label> <input id="affiliation" name="affiliation" type="text" autocomplete="organization"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-<button type="submit" style="margin-top:1rem; padding:.6rem 1rem; border: 1px solid #000; border-radius:8px; cursor:pointer; background-color: #277d8e; color: white;">
-
-Sign Up
-
-</button>
-
-</form>
-
-::: {#signup-msg aria-live="polite" style="margin-top:.6rem; font-size:.95rem;"}
-:::
-::::
+::: {.column-margin}
 
 ```{=html}
+<div class="card" style="padding:1rem; border-radius:10px;">
+  <h5 class="card-title" style="margin:0;">Mailing List</h5>
+  <p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
+    Join the mailing list for event updates.
+  </p>
+
+  <form id="signup-form">
+    <label for="email" style="display:block; margin-top:.6rem; font-weight:600;">Email</label>
+    <input id="email" name="email" type="email" required autocomplete="email"
+           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
+
+    <label for="firstName" style="display:block; margin-top:.6rem; font-weight:600;">First Name</label>
+    <input id="firstName" name="firstName" type="text" required autocomplete="given-name"
+           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
+
+    <label for="lastName" style="display:block; margin-top:.6rem; font-weight:600;">Last Name</label>
+    <input id="lastName" name="lastName" type="text" required autocomplete="family-name"
+           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
+
+    <label for="affiliation" style="display:block; margin-top:.6rem; font-weight:600;">Affiliation</label>
+    <input id="affiliation" name="affiliation" type="text" autocomplete="organization"
+           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
+
+    <button type="submit"
+            style="margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer;background-color: #277d8e; color: white;">
+      Sign Up
+    </button>
+  </form>
+
+  <div id="signup-msg" aria-live="polite" style="margin-top:.6rem; font-size:.95rem;"></div>
+</div>
+
 <script>
-  
+  // Your deployed Apps Script Web App URL (must be the /exec URL)
   const WEB_APP_URL =
     "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
 
@@ -81,7 +73,7 @@ Sign Up
   });
 </script>
 ```
-:::::
+:::
 
 Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
 
