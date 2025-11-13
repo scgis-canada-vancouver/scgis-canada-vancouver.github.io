@@ -1,0 +1,30 @@
+---
+title: "Events"
+format: html
+title-block-banner: true
+---
+
+::: panel-tabset
+## Upcoming Events
+
+-   **Oct 29, 2025** - GIS Day\
+    Koerner Library, University of British Columbia, BC, CA
+
+    ![](images/clipboard-1628135356.png)
+
+    GIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together **students, educators, researchers, and industry professionals** who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\
+    <https://gis.ubc.ca/event/gis-day-2025/>
+
+-   **January, 2026** - SCGIS Vancouver Meeting\
+    We are currently planning the first meeting for SCGIS Vancouver members. Exact date and details to follow!
+
+-   **July 7-10, 2026** – SCGIS Annual Conference\
+    Estes Park Center, Rocky Mountain National Park, CO, USA\
+    ![](images/clipboard-1537866183.png)\
+    Stay tuned for more information!\
+    <https://www.scgis.org/conference>
+
+## Past Events
+
+-   Coming Soon.
+:::

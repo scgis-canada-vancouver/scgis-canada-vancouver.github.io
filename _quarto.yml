@@ -15,6 +15,7 @@ website:
         text: Home
       - resources.qmd
       - about.qmd
+      - events.qmd
     tools:
       - icon: envelope
         href: mailto:scgis.canada.vancouver@gmail.com
