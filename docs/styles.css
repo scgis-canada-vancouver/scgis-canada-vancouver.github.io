@@ -1,7 +1,7 @@
 
 /* Navbar */
 .navbar {
-  background-color: #481f70;
+  background-color: #152F55;
 }
 
 .navbar .navbar-brand {
@@ -14,11 +14,11 @@
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #75d054;
+  color: #A8AAAD;
 }
 
 .navbar .nav-link.active {
-  color: #fde725;
+  color: #A8AAAD;
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@
 /* Adapted from banner for https://labs.ala.org.au/ quarto site */
 
 .quarto-title-block.default .quarto-title-banner {
-  background-color: #481f70;
+  background-color: #152F55;
   background-size: cover;
   background-position: center center;
   width: 100vw; 
@@ -76,4 +76,21 @@
   font-style: italic;
   font-weight: 400;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.title-with-logo {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title-logo {
+  width: 180px;
+  height: auto;
+}
+
+/* Resize the title-block logo */
+.custom-logo {
+  height: 80px;   /* adjust as needed */
+  width: auto;    /* keeps aspect ratio */
 }
