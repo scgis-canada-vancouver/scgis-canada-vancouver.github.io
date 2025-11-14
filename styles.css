@@ -12,6 +12,13 @@
   color: #fefeff;
 }
 
+/* Add smooth transition to nav links */
+a.nav-link,
+a.nav-link:after,
+a.nav-link:before {
+  transition: all .3s;
+}
+
 .navbar .nav-link {
   color: #fefeff;
 }
@@ -19,12 +26,10 @@
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
   color: #6c92de;
-  font-weight: bold;
 }
 
 .navbar .nav-link.active {
   color: #c5dbff;
-  font-weight: bold;
 }
 
 
