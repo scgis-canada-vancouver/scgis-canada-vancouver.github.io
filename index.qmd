@@ -1,9 +1,5 @@
 ---
-title: |
-  <div class="title-with-logo">
-    <img src="img/home/scgis_logo.png" class="title-logo">
-    <span>SCGIS Vancouver</span>
-  </div>
+title: "SCGIS Vancouver"
 title-block-banner: "img/home/yvr_dsm.png"
 format:
   html:
@@ -81,7 +77,7 @@ format:
 ```
 :::
 
-Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
+Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**. 
 
 This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 

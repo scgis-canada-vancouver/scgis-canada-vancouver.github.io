@@ -1,25 +1,35 @@
-
 /* Navbar */
 .navbar {
   background-color: #152F55;
 }
 
+/* Navbar */
+.navbar {
+  background-color: #253351;
+}
+
 .navbar .navbar-brand {
-  color: #FFFFFF;
+  color: #fefeff;
+}
+
+/* Add smooth transition to nav links */
+a.nav-link,
+a.nav-link:after,
+a.nav-link:before {
+  transition: all .3s;
 }
 
 .navbar .nav-link {
-  color: #FFFFFF;
+  color: #fefeff;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #A8AAAD;
+  color: #6c92de;
 }
 
 .navbar .nav-link.active {
-  color: #A8AAAD;
-  font-weight: bold;
+  color: #c5dbff;
 }
 
 
@@ -27,7 +37,7 @@
 /* Adapted from banner for https://labs.ala.org.au/ quarto site */
 
 .quarto-title-block.default .quarto-title-banner {
-  background-color: #152F55;
+  background-color: #253351;
   background-size: cover;
   background-position: center center;
   width: 100vw; 
@@ -61,12 +71,28 @@
   z-index: 2;
 }
 
-/* Title text */
+/* Title text with automatic logo */
 .quarto-title-block.default .quarto-title .title {
   color: #f5f9ff;
   font-size: 3.5rem;
   font-weight: 600;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0); 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.0);
+  display: inline-flex;
+  align-items: center;
+}
+
+/* add logo before title on banner */
+.quarto-title-block.default .quarto-title .title::before {
+  content: "";
+  display: inline-block;
+  width: 16vh;
+  height: 16vh;
+  background-image: url('img/home/scgis_logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 2rem;
+  vertical-align: middle;
 }
 
 /* Subtitle text */
@@ -76,17 +102,6 @@
   font-style: italic;
   font-weight: 400;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.title-with-logo {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-}
-
-.title-logo {
-  width: 18vh;
-  height: auto;
 }
 
 /* Resize the title-block logo */

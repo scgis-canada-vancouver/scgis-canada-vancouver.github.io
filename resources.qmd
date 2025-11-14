@@ -7,7 +7,7 @@ title-block-banner: "img/home/yvr_dsm_wide.png"
 Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.
 
 If you have a useful GIS/conservation resource you don't see listed, please [let us know](mailto:scgis.canada.vancouver@gmail.com)
-
+ 
 ## Data Portals
 
 These are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.

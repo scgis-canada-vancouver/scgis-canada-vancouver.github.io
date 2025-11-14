@@ -9,7 +9,7 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
 
 
 -   **November 19, 2025** - GIS Day\
-    Koerner Library, University of British Columbia, BC, CA
+    Koerner Library, University of British Columbia, BC, CA  
 
     ![](images/clipboard-1628135356.png)
 
