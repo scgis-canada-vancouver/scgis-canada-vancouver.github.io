@@ -10,8 +10,7 @@ format:
     css: styles.css
 ---
 
-::: {.column-margin}
-
+::: column-margin
 ```{=html}
 <div class="card" style="padding:1rem; border-radius:10px;">
   <h5 class="card-title" style="margin:0;">Mailing List</h5>
@@ -90,17 +89,159 @@ Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS
 
 The SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected [chapters](https://www.scgis.org/chapters "Check out other SCGIS chapters around the world!") in various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community.
 
-# Upcoming Events
 
-As a chapter, we plan to host a mix of events, including:
 
--   Talks from conservation and GIS related groups ([contact us](mailto:scgis.canada.vancouver@gmail.com) if you're interested in presenting)
+<br>
+<br>
 
--   Hands-on workshops on topics including data collection/portals, GIS analysis, remote sensing, mapping and data visualization
 
--   Outdoor citizen science and conservation related events
+:::::: {.column-screen style="background-color:#ffffff;"}
+::::: column-screen-inset
+::: {.home-column-image .col-left}
+<a href="events.html#upcoming-events"></a>
+:::
 
--   More casual social meetups including hikes and happy hours
+::: {.home-column-text .col-right}
+<center>
 
-This schedule is in development, and updated frequently. Sign up to our mailing list (above) and follow us on our social media page, and check our [Events](events.html) tab for updates.
+<h1 class="heading-home" style="color: #152F55;">
+Events
+</h1>
 
+<div style="max-width: 650px; margin: 0 auto;">
+  <p style="color:#152F55; font-style: italic;">
+    SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. 
+    Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates. 
+  </p>
+</div>
+
+</center>
+
+```{r, echo = FALSE}
+#| warning: false
+
+library(htmltools)
+
+
+tags$div(class = "category-row",
+
+  # --- PAST EVENTS (now on the left) ---
+  tags$div(
+    class = "category-column",
+    tags$a(
+      href = "events.html#past-events",
+      tags$img(
+        src = "images/vectors/history.svg",
+        class = "category-image"
+      )
+    ),
+    tags$h4(
+      style = "text-align:center; color:#152F55;",
+      tags$a(
+        style = "color:#152F55; text-decoration:none;",
+        href = "events.html#past-events",
+        "Past Events"
+      )
+    )
+  ),
+
+  # --- UPCOMING EVENTS (now on the right) ---
+  tags$div(
+    class = "category-column",
+    tags$a(
+      href = "events.html#upcoming-events",
+      tags$img(
+        src = "images/vectors/event.svg",
+        class = "category-image"
+      )
+    ),
+    tags$h4(
+      style = "text-align:center; color:#152F55;",
+      tags$a(
+        style = "color:#152F55; text-decoration:none;",
+        href = "events.html#upcoming-events",
+        "Upcoming Events"
+      )
+    )
+  )
+)
+```
+
+
+:::::: {.column-screen style="background-color:#152F55;"}
+::::: column-screen-inset
+::: {.home-column-image .col-left}
+<a href="https://scgisvancouver.org/resources.html">
+
+</a>
+:::
+
+::: {.home-column-text .col-right}
+<center>
+
+<h1 class="heading-home" style="color: #fff;">
+
+Resources
+
+</h1>
+
+[Curated data portals, hubs, and papers related to conservation in Vancouver, BC ]{style="color: #fff; font-style: italic"}
+
+</center>
+
+```{r, echo = FALSE}
+#| warning: false
+
+library(htmltools)
+
+tags$div(class = "category-row",
+         
+  tags$div( 
+    class = "category-column",
+    tags$a(href = "resources.html#data-portals",
+      tags$img(
+        href = "resources.html#data-portals",
+        src = "images/vectors/data.svg",
+        style = "color:#fff !important;",
+        class = "category-image honey-white"
+  )),
+  tags$h4(style = "text-align:center;",
+      tags$a(
+        class = "white",
+        href = "https://scgisvancouver.org/resources.html#data-portals", "Data Portals"))),
+  
+  tags$div( 
+    class = "category-column",
+    tags$a(href = "resources.html#conservation-environmental-data-hubs",
+      tags$img(
+        href = "resources.html#conservation-environmental-data-hubs",
+        src = "images/vectors/hub.svg",
+        style = "color:#fff !important;",
+        class = "category-image honey-white"
+  )),
+  tags$h4(style = "text-align:center",
+      tags$a(
+        class = "white",
+        href = "https://scgisvancouver.org/resources.html#conservation-environmental-data-hubs", "Conservation Hubs"))),
+  
+  tags$div( 
+    class = "category-column",
+    tags$a(href = "resources.html#relevant-publications-news",
+      tags$img(
+        href = "resources.html#relevant-publications-news",
+        src = "images/vectors/publications.svg",
+        style = "color:#fff !important;",
+        class = "category-image honey-white"
+  )),
+  tags$h4(style = "text-align:center",
+      tags$a(
+        class = "white",
+        href = "https://scgisvancouver.org/resources.html#relevant-publications-news", "Publications & News")))
+  
+  
+  
+  )
+```
+:::
+:::::
+::::::

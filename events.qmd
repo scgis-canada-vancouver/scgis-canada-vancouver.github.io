@@ -5,7 +5,8 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
 ---
 
 ::: panel-tabset
-## Upcoming Events
+## Upcoming Events {#upcoming-events}
+
 
 -   **November 19, 2025** - GIS Day\
     Koerner Library, University of British Columbia, BC, CA
@@ -24,7 +25,7 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
     Stay tuned for more information!\
     <https://www.scgis.org/conference>
 
-## Past Events
+## Past Events {#past-events}
 
 -   Coming Soon.
 :::
