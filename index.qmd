@@ -78,7 +78,7 @@ format:
 ```
 :::
 
-Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
+Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**. 
 
 This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 
