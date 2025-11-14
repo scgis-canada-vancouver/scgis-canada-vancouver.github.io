@@ -6,7 +6,7 @@ lang: en
 
 website:
   title: "SCGIS Vancouver"
-  favicon: "img/home/favicon.jpg"
+  favicon: "img/home/favicon.png"
   navbar:
     search: true
     pinned: false
