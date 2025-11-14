@@ -121,11 +121,11 @@ library(htmltools)
 
 tags$div(class = "category-row",
 
-  # --- PAST EVENTS (now on the left) ---
+  # --- PAST EVENTS (left) ---
   tags$div(
     class = "category-column",
     tags$a(
-      href = "events.html#past-events",
+      href = "events.html#past-events",   # <--- past events tab
       tags$img(
         src = "images/vectors/history.svg",
         class = "category-image"
@@ -135,17 +135,17 @@ tags$div(class = "category-row",
       style = "text-align:center; color:#152F55;",
       tags$a(
         style = "color:#152F55; text-decoration:none;",
-        href = "events.html#past-events",
+        href = "events.html#tabset-1-2-tab",
         "Past Events"
       )
     )
   ),
 
-  # --- UPCOMING EVENTS (now on the right) ---
+  # --- UPCOMING EVENTS (right) ---
   tags$div(
     class = "category-column",
     tags$a(
-      href = "events.html#upcoming-events",
+      href = "events.html#upcoming-events",   # <--- upcoming events tab
       tags$img(
         src = "images/vectors/event.svg",
         class = "category-image"
@@ -155,7 +155,7 @@ tags$div(class = "category-row",
       style = "text-align:center; color:#152F55;",
       tags$a(
         style = "color:#152F55; text-decoration:none;",
-        href = "events.html#upcoming-events",
+        href = "events.html#tabset-1-1-tab",
         "Upcoming Events"
       )
     )

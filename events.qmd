@@ -4,7 +4,7 @@ format: html
 title-block-banner: "img/home/yvr_dsm_eastvan.png"
 ---
 
-::: panel-tabset
+
 ## Upcoming Events {#upcoming-events}
 
 
@@ -28,4 +28,6 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
 ## Past Events {#past-events}
 
 -   Coming Soon.
-:::
+
+
+
