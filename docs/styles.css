@@ -3,21 +3,27 @@
   background-color: #152F55;
 }
 
+/* Navbar */
+.navbar {
+  background-color: #253351;
+}
+
 .navbar .navbar-brand {
-  color: #FFFFFF;
+  color: #fefeff;
 }
 
 .navbar .nav-link {
-  color: #FFFFFF;
+  color: #fefeff;
 }
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-  color: #A8AAAD;
+  color: #6c92de;
+  font-weight: bold;
 }
 
 .navbar .nav-link.active {
-  color: #A8AAAD;
+  color: #c5dbff;
   font-weight: bold;
 }
 
@@ -26,7 +32,7 @@
 /* Adapted from banner for https://labs.ala.org.au/ quarto site */
 
 .quarto-title-block.default .quarto-title-banner {
-  background-color: #152F55;
+  background-color: #253351;
   background-size: cover;
   background-position: center center;
   width: 100vw; 
