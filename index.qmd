@@ -1,9 +1,5 @@
 ---
-title: |
-  <div class="title-with-logo">
-    <img src="img/home/scgis_logo.png" class="title-logo">
-    <span>SCGIS Vancouver</span>
-  </div>
+title: "SCGIS Vancouver"
 title-block-banner: "img/home/yvr_dsm.png"
 format:
   html:
