@@ -1,96 +1,5 @@
 [
   {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.\nIf you have a useful GIS/conservation resource you don’t see listed, please let us know"
-  },
-  {
-    "objectID": "resources.html#data-portals",
-    "href": "resources.html#data-portals",
-    "title": "Resources",
-    "section": "Data Portals",
-    "text": "Data Portals\nThese are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
-  },
-  {
-    "objectID": "resources.html#conservation-environmental-data-hubs",
-    "href": "resources.html#conservation-environmental-data-hubs",
-    "title": "Resources",
-    "section": "Conservation & Environmental Data Hubs",
-    "text": "Conservation & Environmental Data Hubs\nThese resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.\n\nBC Conservation Data Centre (CDC)\n\nInformation on species and ecosystems at risk in B.C.\n\niMapBC\n\nAn interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.\n\nCommunity Mapping Network (CMN)\n\nA network that supports community-based mapping and data collection."
-  },
-  {
-    "objectID": "events.html",
-    "href": "events.html",
-    "title": "Events",
-    "section": "",
-    "text": "November 19, 2025 - GIS Day\nKoerner Library, University of British Columbia, BC, CA\n\nGIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together students, educators, researchers, and industry professionals who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\nhttps://gis.ubc.ca/event/gis-day-2025/\nJanuary, 2026 - SCGIS Vancouver Meeting\nWe are currently planning the first meeting for SCGIS Vancouver members. Exact date and details to follow!\nJuly 7-10, 2026 – SCGIS Annual Conference\nEstes Park Center, Rocky Mountain National Park, CO, USA\n\nStay tuned for more information!\nhttps://www.scgis.org/conference"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Us",
-    "section": "",
-    "text": "The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.\nLearn more about their mission here"
-  },
-  {
-    "objectID": "about.html#ramon-melser",
-    "href": "about.html#ramon-melser",
-    "title": "About Us",
-    "section": "Ramon Melser",
-    "text": "Ramon Melser\nRamon is a postdoctoral research fellow in the Integrated Remote Sensing Studio (IRSS), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community."
-  },
-  {
-    "objectID": "about.html#sadie-russell",
-    "href": "about.html#sadie-russell",
-    "title": "About Us",
-    "section": "Sadie Russell",
-    "text": "Sadie Russell"
-  },
-  {
-    "objectID": "about.html#liam-irwin",
-    "href": "about.html#liam-irwin",
-    "title": "About Us",
-    "section": "Liam Irwin",
-    "text": "Liam Irwin\nLiam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "SCGIS Vancouver",
-    "section": "",
-    "text": "Mailing List\n  \n    Join the mailing list for event updates.\n  \n\n  \n    Email\n    \n\n    First Name\n    \n\n    Last Name\n    \n\n    Affiliation\n    \n\n    \n      Sign Up\n    \n  \n\n  \n\n\n\n\n\n\nWelcome to the homepage for the newly formed (est. November 2025) Vancouver, BC Chapter of the Society for Conservation GIS.\nThis group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS).\nSCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected chapters in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.\n\n\n\n\n\n\n\n\n\n\n\nEvents\n\n\n\nSCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.\n\n\n\n\n\n\n\n\n\n\n\nPast Events\n\n\n\n\n\n\n\nUpcoming Events\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\nCurated data portals, hubs, and papers related to conservation in Vancouver, BC\n\n\n\n\n\n\n\n\n\nData Portals\n\n\n\n\n\n\n\nConservation Hubs\n\n\n\n\n\n\n\nPublications & News"
-  },
-  {
-    "objectID": "resources.html#conservation-environmental-publications",
-    "href": "resources.html#conservation-environmental-publications",
-    "title": "Resources",
-    "section": "Conservation & Environmental Publications",
-    "text": "Conservation & Environmental Publications\nComing Soon!"
-  },
-  {
-    "objectID": "resources.html#relevant-publications-news",
-    "href": "resources.html#relevant-publications-news",
-    "title": "Resources",
-    "section": "Relevant Publications & News",
-    "text": "Relevant Publications & News\nComing Soon!"
-  },
-  {
-    "objectID": "events.html#upcoming-events",
-    "href": "events.html#upcoming-events",
-    "title": "Events",
-    "section": "",
-    "text": "November 19, 2025 - GIS Day\nKoerner Library, University of British Columbia, BC, CA\n\nGIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together students, educators, researchers, and industry professionals who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\nhttps://gis.ubc.ca/event/gis-day-2025/\nJanuary, 2026 - SCGIS Vancouver Meeting\nWe are currently planning the first meeting for SCGIS Vancouver members. Exact date and details to follow!\nJuly 7-10, 2026 – SCGIS Annual Conference\nEstes Park Center, Rocky Mountain National Park, CO, USA\n\nStay tuned for more information!\nhttps://www.scgis.org/conference"
-  },
-  {
-    "objectID": "events.html#past-events",
-    "href": "events.html#past-events",
-    "title": "Events",
-    "section": "Past Events",
-    "text": "Past Events\n\nComing Soon."
-  },
-  {
     "objectID": "upcoming_events.html",
     "href": "upcoming_events.html",
     "title": "Events",
@@ -133,18 +42,32 @@
     "text": "Data Portals\nThese are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
   },
   {
-    "objectID": "data_portals.html#conservation-environmental-data-hubs",
-    "href": "data_portals.html#conservation-environmental-data-hubs",
-    "title": "Data Portals",
-    "section": "Conservation & Environmental Data Hubs",
-    "text": "Conservation & Environmental Data Hubs\nThese resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.\n\nBC Conservation Data Centre (CDC)\n\nInformation on species and ecosystems at risk in B.C.\n\niMapBC\n\nAn interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.\n\nCommunity Mapping Network (CMN)\n\nA network that supports community-based mapping and data collection."
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Us",
+    "section": "",
+    "text": "The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.\nLearn more about their mission here"
   },
   {
-    "objectID": "data_portals.html#relevant-publications-news",
-    "href": "data_portals.html#relevant-publications-news",
-    "title": "Data Portals",
-    "section": "Relevant Publications & News",
-    "text": "Relevant Publications & News\nComing Soon!"
+    "objectID": "about.html#ramon-melser",
+    "href": "about.html#ramon-melser",
+    "title": "About Us",
+    "section": "Ramon Melser",
+    "text": "Ramon Melser\nRamon is a postdoctoral research fellow in the Integrated Remote Sensing Studio (IRSS), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community."
+  },
+  {
+    "objectID": "about.html#sadie-russell",
+    "href": "about.html#sadie-russell",
+    "title": "About Us",
+    "section": "Sadie Russell",
+    "text": "Sadie Russell"
+  },
+  {
+    "objectID": "about.html#liam-irwin",
+    "href": "about.html#liam-irwin",
+    "title": "About Us",
+    "section": "Liam Irwin",
+    "text": "Liam Irwin\nLiam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond."
   },
   {
     "objectID": "cons_env_hubs.html",
@@ -159,6 +82,13 @@
     "title": "Resources",
     "section": "",
     "text": "These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.\n\nBC Conservation Data Centre (CDC)\n\nInformation on species and ecosystems at risk in B.C.\n\niMapBC\n\nAn interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.\n\nCommunity Mapping Network (CMN)\n\nA network that supports community-based mapping and data collection."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SCGIS Vancouver",
+    "section": "",
+    "text": "Mailing List\n  \n    Join the mailing list for event updates.\n  \n\n  \n    Email\n    \n\n    First Name\n    \n\n    Last Name\n    \n\n    Affiliation\n    \n\n    \n      Sign Up\n    \n  \n\n  \n\n\n\n\n\n\nWelcome to the homepage for the newly formed (est. November 2025) Vancouver, BC Chapter of the Society for Conservation GIS.\nThis group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS).\nSCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected chapters in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.\n\n\n\n\n\n\n\n\n\n\n\nEvents\n\n\n\nSCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.\n\n\n\n\n\n\n\n\n\n\n\nPast Events\n\n\n\n\n\n\n\nUpcoming Events\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\nCurated data portals, hubs, and papers related to conservation in Vancouver, BC\n\n\n\n\n\n\n\n\n\nData Portals\n\n\n\n\n\n\n\nConservation Hubs\n\n\n\n\n\n\n\nPublications & News"
   },
   {
     "objectID": "publications_news.html",
