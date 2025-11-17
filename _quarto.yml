@@ -17,7 +17,12 @@ website:
         text: Home
       - resources.qmd
       - about.qmd
-      - events.qmd
+      - text: "Events"
+        menu:
+        - href: upcoming_events.qmd
+          text: "Upcoming Events"
+        - href: past_events.qmd
+          text: "Past Events"
     tools:
       - icon: envelope
         href: mailto:scgis.canada.vancouver@gmail.com

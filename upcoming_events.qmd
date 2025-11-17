@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Upcoming Events"
 format: html
 title-block-banner: "img/home/yvr_dsm_eastvan.png"
 ---
@@ -24,10 +24,6 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
     ![](images/clipboard-1537866183.png)\
     Stay tuned for more information!\
     <https://www.scgis.org/conference>
-
-## Past Events {#past-events}
-
--   Coming Soon.
 
 
 

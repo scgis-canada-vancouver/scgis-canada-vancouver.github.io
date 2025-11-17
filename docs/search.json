@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "SCGIS Vancouver",
     "section": "",
-    "text": "Mailing List\n  \n    Join the mailing list for event updates.\n  \n\n  \n    Email\n    \n\n    First Name\n    \n\n    Last Name\n    \n\n    Affiliation\n    \n\n    \n      Sign Up\n    \n  \n\n  \n\n\n\nWelcome to the homepage for the newly formed (est. November 2025) Vancouver, BC Chapter of the Society for Conservation GIS.\nThis group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.\nOur chapter is an affiliated chapter of the Society for Conservation GIS (SCGIS).\nThe SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected chapters in various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community.\n    \n\n\n\n\n\n\n\n\nEvents\n\n\n\nSCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.\n\n\n\n\n\n\n\n\n\n\n\nPast Events\n\n\n\n\n\n\n\nUpcoming Events\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\nCurated data portals, hubs, and papers related to conservation in Vancouver, BC\n\n\n\n\n\n\n\n\n\nData Portals\n\n\n\n\n\n\n\nConservation Hubs\n\n\n\n\n\n\n\nPublications & News"
+    "text": "Mailing List\n  \n    Join the mailing list for event updates.\n  \n\n  \n    Email\n    \n\n    First Name\n    \n\n    Last Name\n    \n\n    Affiliation\n    \n\n    \n      Sign Up\n    \n  \n\n  \n\n\n\n\n\nWelcome to the homepage for the newly formed (est. November 2025) Vancouver, BC Chapter of the Society for Conservation GIS.\n\n\nThis group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.\n\n\nOur chapter is an affiliated chapter of the  Society for Conservation GIS (SCGIS) .\n\n\nSCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected  chapters  in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.\n\n\n    \n    \n\n\n\n\n\n\n\n\nEvents\n\n\n\nSCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.\n\n\n\n\n\n\n\n\n\n\n\nPast Events\n\n\n\n\n\n\n\nUpcoming Events\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResources\n\nCurated data portals, hubs, and papers related to conservation in Vancouver, BC\n\n\n\n\n\n\n\n\n\nData Portals\n\n\n\n\n\n\n\nConservation Hubs\n\n\n\n\n\n\n\nPublications & News"
   },
   {
     "objectID": "resources.html#conservation-environmental-publications",
@@ -89,5 +89,33 @@
     "title": "Events",
     "section": "Past Events",
     "text": "Past Events\n\nComing Soon."
+  },
+  {
+    "objectID": "upcoming_events.html",
+    "href": "upcoming_events.html",
+    "title": "Upcoming Events",
+    "section": "",
+    "text": "November 19, 2025 - GIS Day\nKoerner Library, University of British Columbia, BC, CA\n\nGIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together students, educators, researchers, and industry professionals who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\nhttps://gis.ubc.ca/event/gis-day-2025/\nJanuary, 2026 - SCGIS Vancouver Meeting\nWe are currently planning the first meeting for SCGIS Vancouver members. Exact date and details to follow!\nJuly 7-10, 2026 – SCGIS Annual Conference\nEstes Park Center, Rocky Mountain National Park, CO, USA\n\nStay tuned for more information!\nhttps://www.scgis.org/conference"
+  },
+  {
+    "objectID": "upcoming_events.html#upcoming-events",
+    "href": "upcoming_events.html#upcoming-events",
+    "title": "Upcoming Events",
+    "section": "",
+    "text": "November 19, 2025 - GIS Day\nKoerner Library, University of British Columbia, BC, CA\n\nGIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together students, educators, researchers, and industry professionals who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\nhttps://gis.ubc.ca/event/gis-day-2025/\nJanuary, 2026 - SCGIS Vancouver Meeting\nWe are currently planning the first meeting for SCGIS Vancouver members. Exact date and details to follow!\nJuly 7-10, 2026 – SCGIS Annual Conference\nEstes Park Center, Rocky Mountain National Park, CO, USA\n\nStay tuned for more information!\nhttps://www.scgis.org/conference"
+  },
+  {
+    "objectID": "past_events.html",
+    "href": "past_events.html",
+    "title": "Past Events",
+    "section": "",
+    "text": "Coming Soon."
+  },
+  {
+    "objectID": "past_events.html#past-events",
+    "href": "past_events.html#past-events",
+    "title": "Past Events",
+    "section": "",
+    "text": "Coming Soon."
   }
 ]

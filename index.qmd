@@ -77,13 +77,10 @@ format:
 ```
 :::
 
-Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**. 
 
-This group aims to bring together the community of conservation related Geographic Information System (GIS) related individuals across Vancouver and the greater region of southern British Columbia.
 
-Our chapter is an affiliated chapter of the [Society for Conservation GIS (SCGIS)](https://www.scgis.org/ "SCGIS Organization Homepage").
 
-The SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected [chapters](https://www.scgis.org/chapters "Check out other SCGIS chapters around the world!") in various cities and countires. Membership is open to anyone looking to engage in a GIS conservation related community.
+<div style="max-width: 800px; margin: 0 auto;"> <p> Welcome to the homepage for the newly formed (<em>est.</em> November 2025) <strong>Vancouver, BC Chapter of the Society for Conservation GIS</strong>. </p> <p> This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia. </p> <p> Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" title="SCGIS Organization Homepage" style="color:#cce8ff; text-decoration:underline;"> Society for Conservation GIS (SCGIS) </a>. </p> <p> SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" title="Check out other SCGIS chapters around the world!" style="color:#cce8ff; text-decoration:underline;"> chapters </a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community. </p> </div> <br> <br> <br> <br> <br>
 
 
 
@@ -129,7 +126,7 @@ tags$div(class = "category-row",
   tags$div(
     class = "category-column",
     tags$a(
-      href = "events.html#past-events",   # <--- past events tab
+      href = "past_events.html",   # <--- past events tab
       tags$img(
         src = "images/vectors/history.svg",
         class = "category-image"
@@ -139,7 +136,7 @@ tags$div(class = "category-row",
       style = "text-align:center; color:#152F55;",
       tags$a(
         style = "color:#152F55; text-decoration:none;",
-        href = "events.html#tabset-1-2-tab",
+        href = "past_events.html",
         "Past Events"
       )
     )
@@ -149,7 +146,7 @@ tags$div(class = "category-row",
   tags$div(
     class = "category-column",
     tags$a(
-      href = "events.html#upcoming-events",   # <--- upcoming events tab
+      href = "upcoming_events.html",   # <--- upcoming events tab
       tags$img(
         src = "images/vectors/event.svg",
         class = "category-image"
@@ -159,7 +156,7 @@ tags$div(class = "category-row",
       style = "text-align:center; color:#152F55;",
       tags$a(
         style = "color:#152F55; text-decoration:none;",
-        href = "events.html#tabset-1-1-tab",
+        href = "upcoming_events.html",
         "Upcoming Events"
       )
     )
