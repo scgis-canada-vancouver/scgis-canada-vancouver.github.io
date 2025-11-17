@@ -47,11 +47,12 @@ a.nav-link:before {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 20vh;
+  margin-bottom: 0 !important;
+  height: 30vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 0rem;
 }
 
 /* Dark overlay for text readability (currently transparent) */
@@ -142,8 +143,10 @@ main.content {
 /* Shared spacing for ALL blue sections
    (both intro + Resources have .blue-section) */
 .column-screen.blue-section {
-  margin: 2.5rem 0;   /* same distance above/below each blue band */
-  padding: 2rem 0;    /* same inner vertical padding */
+  margin: 0rem 0;   /* same distance above/below each blue band */
+  padding: 0rem 0;    /* same inner vertical padding */
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 /* Optional: if you want the very first blue band
@@ -244,7 +247,7 @@ main.content {
 .intro-box {
   max-width: 800px;
   margin: 2rem auto 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 0rem 0rem;
   background-color: #152F55;
   color: #ffffff;
   border-radius: 10px;
@@ -272,3 +275,45 @@ main.content {
 }
 
 
+/* Full-bleed section (removes Quarto container padding) */
+.full-bleed-blue {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-color: #253351 !important;
+  padding: 2rem 0; /* adjust as desired */
+}
+
+/* Remove inset padding if nested */
+.full-bleed-blue .column-screen-inset {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.page-columns.page-full {
+  margin-top: 0 !important;
+}
+
+
+/* Remove the gap between the banner and the first content block 
+   when a margin column comes first */
+.page-columns:first-of-type {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+main.content > .column-margin:first-of-type {
+  margin-top: 0 !important;
+}
+
+/* Center the column-margin card vertically within the Events section */
+.column-margin {
+  display: flex;
+  align-items: center;
+  transform: translateY(-90px);
+}
+
+/* Prevent the main content from stretching */
+.column-screen > * {
+  align-self: center;
+}

@@ -8,11 +8,33 @@ format:
 
 
 
+:::::: {.column-screen .blue-section style="background-color:#253351;"}
+::::: column-screen-inset
+
+<div style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;">
+
+Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
+
+This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.
+
+Our chapter is an affiliated chapter of the 
+<a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
+
+SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected 
+<a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
+
+</div>
+
+:::::
+::::::
+
+
+
 ::: column-margin
 ```{=html}
-<div class="card" style="padding:1rem; border-radius:10px;">
+<div class="card" style="padding:1rem; border-radius:10px;border:1px solid #253351;">
   <h5 class="card-title" style="margin:0;">Mailing List</h5>
-  <p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
+  <p class="card-subtitle mb-10" style="margin:.25rem 0 0.25rem 0; opacity:1;">
     Join the mailing list for event updates.
   </p>
 
@@ -79,27 +101,6 @@ format:
 ```
 :::
 
-
-
-:::::: {.column-screen .blue-section style="background-color:#152F55;"}
-::::: column-screen-inset
-
-<div style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;">
-
-Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
-
-This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.
-
-Our chapter is an affiliated chapter of the 
-<a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
-
-SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected 
-<a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
-
-</div>
-
-:::::
-::::::
 
 
 :::::: {.column-screen style="background-color:#ffffff;"}
@@ -175,9 +176,12 @@ tags$div(class = "category-row",
 ```
 
 
-:::::: {.column-screen .column-screen .blue-section style="background-color:#152F55;"}
+:::::: {.full-bleed-blue}
 ::::: column-screen-inset
+
 ::: {.home-column-image .col-left}
+
+
 <a href="https://scgisvancouver.org/resources.html">
 
 </a>
