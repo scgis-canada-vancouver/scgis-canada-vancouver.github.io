@@ -195,9 +195,9 @@ tags$div(class = "category-row",
          
   tags$div( 
     class = "category-column",
-    tags$a(href = "resources.html#data-portals",
+    tags$a(href = "data_portals.html",
       tags$img(
-        href = "resources.html#data-portals",
+        href = "data_portals.html",
         src = "images/vectors/data.svg",
         style = "color:#fff !important;",
         class = "category-image honey-white"
@@ -205,13 +205,13 @@ tags$div(class = "category-row",
   tags$h4(style = "text-align:center;",
       tags$a(
         class = "white",
-        href = "https://scgisvancouver.org/resources.html#data-portals", "Data Portals"))),
+        href = "https://scgisvancouver.org/data_portals.html", "Data Portals"))),
   
   tags$div( 
     class = "category-column",
-    tags$a(href = "resources.html#conservation-environmental-data-hubs",
+    tags$a(href = "cons_env_hubs.html",
       tags$img(
-        href = "resources.html#conservation-environmental-data-hubs",
+        href = "cons_env_hubs.html",
         src = "images/vectors/hub.svg",
         style = "color:#fff !important;",
         class = "category-image honey-white"
@@ -219,13 +219,13 @@ tags$div(class = "category-row",
   tags$h4(style = "text-align:center",
       tags$a(
         class = "white",
-        href = "https://scgisvancouver.org/resources.html#conservation-environmental-data-hubs", "Conservation Hubs"))),
+        href = "https://scgisvancouver.org/cons_env_hubs.html", "Conservation Hubs"))),
   
   tags$div( 
     class = "category-column",
-    tags$a(href = "resources.html#relevant-publications-news",
+    tags$a(href = "publications_news.html",
       tags$img(
-        href = "resources.html#relevant-publications-news",
+        href = "publications_news.html",
         src = "images/vectors/publications.svg",
         style = "color:#fff !important;",
         class = "category-image honey-white"
@@ -233,7 +233,7 @@ tags$div(class = "category-row",
   tags$h4(style = "text-align:center",
       tags$a(
         class = "white",
-        href = "https://scgisvancouver.org/resources.html#relevant-publications-news", "Publications & News")))
+        href = "https://scgisvancouver.org/publications_news.html", "Publications & News")))
   
   
   

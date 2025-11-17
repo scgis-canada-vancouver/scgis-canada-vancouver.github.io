@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>SCGIS Vancouver</title>
+<title>Resources – SCGIS Vancouver</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(img/home/yvr_dsm.png);
+        background-image: url(img/home/yvr_dsm_wide.png);
 background-size: cover;
       }
 </style>
@@ -79,7 +79,7 @@ background-size: cover;
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed">
+<body class="floating nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -97,7 +97,7 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -153,7 +153,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">SCGIS Vancouver</h1>
+      <h1 class="title">Resources</h1>
                       </div>
   </div>
     
@@ -173,183 +173,34 @@ background-size: cover;
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="card" style="padding:1rem; border-radius:10px;">
-  <h5 class="card-title anchored" style="margin:0;">Mailing List</h5>
-  <p class="card-subtitle mb-3" style="margin:.25rem 0 1rem 0; opacity:.8;">
-    Join the mailing list for event updates.
-  </p>
-
-  <form id="signup-form">
-    <label for="email" style="display:block; margin-top:.6rem; font-weight:600;">Email</label>
-    <input id="email" name="email" type="email" required="" autocomplete="email" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="firstName" style="display:block; margin-top:.6rem; font-weight:600;">First Name</label>
-    <input id="firstName" name="firstName" type="text" required="" autocomplete="given-name" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="lastName" style="display:block; margin-top:.6rem; font-weight:600;">Last Name</label>
-    <input id="lastName" name="lastName" type="text" required="" autocomplete="family-name" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="affiliation" style="display:block; margin-top:.6rem; font-weight:600;">Affiliation</label>
-    <input id="affiliation" name="affiliation" type="text" autocomplete="organization" style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <button type="submit" style="margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer;background-color: #277d8e; color: white;">
-      Sign Up
-    </button>
-  </form>
-
-  <div id="signup-msg" aria-live="polite" style="margin-top:.6rem; font-size:.95rem;"></div>
-</div>
-
-<script>
-  // Your deployed Apps Script Web App URL (must be the /exec URL)
-  const WEB_APP_URL =
-    "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
-
-  const form = document.getElementById("signup-form");
-  const msg  = document.getElementById("signup-msg");
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    msg.textContent = "Submitting…";
-
-    const payload = {
-      email:       document.getElementById("email").value.trim(),
-      firstName:   document.getElementById("firstName").value.trim(),
-      lastName:    document.getElementById("lastName").value.trim(),
-      affiliation: document.getElementById("affiliation").value.trim()
-    };
-
-    try {
-      await fetch(WEB_APP_URL, {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      form.reset();
-      msg.textContent = "Thanks! You're on the list.";
-    } catch (err) {
-      console.error(err);
-      msg.textContent = "Sorry—something went wrong. Please try again.";
-    }
-  });
-</script>
-</div></div><div style="max-width: 800px; margin: 0 auto;">
-<p>
-Welcome to the homepage for the newly formed (<em>est.</em> November 2025) <strong>Vancouver, BC Chapter of the Society for Conservation GIS</strong>.
-</p>
-<p>
-This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.
-</p>
-<p>
-Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" title="SCGIS Organization Homepage" style="color:#cce8ff; text-decoration:underline;"> Society for Conservation GIS (SCGIS) </a>.
-</p>
-<p>
-SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" title="Check out other SCGIS chapters around the world!" style="color:#cce8ff; text-decoration:underline;"> chapters </a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
-</p>
-</div>
-<p><br> <br> <br> <br> <br></p>
-<p><br> <br> <br> <br> <br></p>
-<div class="column-screen page-columns page-full" style="background-color:#ffffff;">
-<div class="column-screen-inset">
-<div class="home-column-image col-left">
-<p><a href="events.html#upcoming-events"></a></p>
-</div>
-<div class="home-column-text col-right">
-<center>
-<h1 class="heading-home" style="color: #152F55;">
-Events
-</h1>
-<div style="max-width: 650px; margin: 0 auto;">
-<p style="color:#152F55; font-style: italic;">
-SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.
-</p>
-</div>
-</center>
-<div class="cell">
-<div class="cell-output-display">
-<div class="category-row">
-<div class="category-column">
-<a href="past_events.html">
-<img src="images/vectors/history.svg" class="category-image">
-</a>
-<h4 style="text-align:center; color:#152F55;" class="anchored">
-<a style="color:#152F55; text-decoration:none;" href="past_events.html">Past Events</a>
-</h4>
-</div>
-<div class="category-column">
-<a href="upcoming_events.html">
-<img src="images/vectors/event.svg" class="category-image">
-</a>
-<h4 style="text-align:center; color:#152F55;" class="anchored">
-<a style="color:#152F55; text-decoration:none;" href="upcoming_events.html">Upcoming Events</a>
-</h4>
-</div>
-</div>
-</div>
-</div>
-<div class="" style="background-color:#152F55;">
-<div class="">
-<div class="home-column-image col-left">
-<p><a href="https://scgisvancouver.org/resources.html"></a></p><a href="https://scgisvancouver.org/resources.html">
-</a><p><a href="https://scgisvancouver.org/resources.html"></a></p>
-</div>
-<div class="home-column-text col-right">
-<center>
-<h1 class="heading-home" style="color: #fff;">
-<p>Resources</p>
-</h1>
-<p><span style="color: #fff; font-style: italic">Curated data portals, hubs, and papers related to conservation in Vancouver, BC</span></p>
-</center>
-<div class="cell">
-<div class="cell-output-display">
-<div class="category-row">
-<div class="category-column">
-<a href="data_portals.html">
-<img href="data_portals.html" src="images/vectors/data.svg" style="color:#fff !important;" class="category-image honey-white">
-</a>
-<h4 style="text-align:center;" class="anchored">
-<a class="white" href="https://scgisvancouver.org/data_portals.html">Data Portals</a>
-</h4>
-</div>
-<div class="category-column">
-<a href="cons_env_hubs.html">
-<img href="cons_env_hubs.html" src="images/vectors/hub.svg" style="color:#fff !important;" class="category-image honey-white">
-</a>
-<h4 style="text-align:center" class="anchored">
-<a class="white" href="https://scgisvancouver.org/cons_env_hubs.html">Conservation Hubs</a>
-</h4>
-</div>
-<div class="category-column">
-<a href="publications_news.html">
-<img href="publications_news.html" src="images/vectors/publications.svg" style="color:#fff !important;" class="category-image honey-white">
-</a>
-<h4 style="text-align:center" class="anchored">
-<a class="white" href="https://scgisvancouver.org/publications_news.html">Publications &amp; News</a>
-</h4>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<section id="conservation-environmental-data-hubs" class="level2">
+<h2 class="anchored" data-anchor-id="conservation-environmental-data-hubs">Conservation &amp; Environmental Data Hubs</h2>
+<p>These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.</p>
+<ul>
+<li><a href="https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre"><strong>BC Conservation Data Centre (CDC)</strong></a>
+<ul>
+<li>Information on species and ecosystems at risk in B.C.</li>
+</ul></li>
+<li><a href="https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc"><strong>iMapBC</strong></a>
+<ul>
+<li>An interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.</li>
+</ul></li>
+<li><a href="https://cmnmaps.ca/"><strong>Community Mapping Network (CMN)</strong></a>
+<ul>
+<li>A network that supports community-based mapping and data collection.</li>
+</ul></li>
+</ul>
 
 
-</div>
-</div>
-</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

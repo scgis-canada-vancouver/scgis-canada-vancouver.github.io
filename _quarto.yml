@@ -15,7 +15,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - resources.qmd
+      - text: "Resources"
+        menu:
+        - href: data_portals.qmd
+          text: "Data Portals"
+        - href: cons_env_hubs.qmd
+          text: "Conservation & Environmental Hubs"
+        - href: publications_news.qmd
+          text: "Publications & News"
       - about.qmd
       - text: "Events"
         menu:

@@ -1,0 +1,9 @@
+---
+title: "Resources"
+format: html
+title-block-banner: "img/home/yvr_dsm_wide.png"
+---
+
+## Relevant Publications & News
+
+Coming soon!
