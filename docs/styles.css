@@ -1,9 +1,7 @@
-/* Navbar */
-.navbar {
-  background-color: #152F55;
-}
+/* ===========================
+   NAVBAR
+   =========================== */
 
-/* Navbar */
 .navbar {
   background-color: #253351;
 }
@@ -33,27 +31,30 @@ a.nav-link:before {
 }
 
 
-/* --- Custom Hero Banner Styles --- */
-/* Adapted from banner for https://labs.ala.org.au/ quarto site */
 
+/* ===========================
+   HERO TITLE BANNER
+   =========================== */
+
+/* Full-width title banner */
 .quarto-title-block.default .quarto-title-banner {
   background-color: #253351;
   background-size: cover;
   background-position: center center;
-  width: 100vw; 
+  width: 100vw;
   position: relative;
   left: 50%;
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  height: 20vh; 
+  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 2rem;
 }
 
-/* Dark overlay for text readability */
+/* Dark overlay for text readability (currently transparent) */
 .quarto-title-block.default .quarto-title-banner::before {
   content: "";
   position: absolute;
@@ -62,7 +63,7 @@ a.nav-link:before {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.0);
-  z-index: 1; 
+  z-index: 1;
 }
 
 /* Title content positioning */
@@ -81,13 +82,13 @@ a.nav-link:before {
   align-items: center;
 }
 
-/* add logo before title on banner */
+/* Add logo before title on banner */
 .quarto-title-block.default .quarto-title .title::before {
   content: "";
   display: inline-block;
   width: 16vh;
   height: 16vh;
-  background-image: url('img/home/scgis_logo.png');
+  background-image: url("img/home/scgis_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -104,17 +105,57 @@ a.nav-link:before {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-/* Resize the title-block logo */
+/* Resize the title-block logo (if used elsewhere) */
 .custom-logo {
-  height: 80px;   /* adjust as needed */
-  width: auto;    /* keeps aspect ratio */
+  height: 80px;
+  width: auto;
+}
+
+/* Remove space under the title banner */
+.quarto-title-block {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Make sure nothing adds default gap at the very top */
+body {
+  margin: 0;
+}
+
+/* Remove the top padding Quarto adds to the page content */
+main.content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 
+/* ===========================
+   SECTION BANDS (.column-screen)
+   =========================== */
+
+/* Normalize all column-screen sections */
+.column-screen {
+  margin: 0;
+  padding: 0;
+}
+
+/* Shared spacing for ALL blue sections
+   (both intro + Resources have .blue-section) */
+.column-screen.blue-section {
+  margin: 2.5rem 0;   /* same distance above/below each blue band */
+  padding: 2rem 0;    /* same inner vertical padding */
+}
+
+/* Optional: if you want the very first blue band
+   a bit closer to the hero, slightly reduce its top margin */
+.quarto-banner-title-block #quarto-document-content .column-screen.blue-section:first-of-type {
+  margin-top: 0rem;
+}
 
 
-
-/* ===== Centered category row ===== */
+/* ===========================
+   CATEGORY ROWS (icon cards)
+   =========================== */
 
 .category-row {
   display: flex;
@@ -137,7 +178,7 @@ a.nav-link:before {
 .category-image {
   display: block;
   margin: 0 auto 0.75rem auto;
-  width: 8rem;             /* fixed icon size */
+  width: 8rem;
   height: 8rem;
   backface-visibility: hidden;
   transform: perspective(1px) translate3d(0, 15px, 0);
@@ -158,7 +199,7 @@ a.nav-link:before {
   }
 }
 
-/* Your color filters still work as-is */
+/* Color filters for icons */
 .honey {
   filter: invert(40%) sepia(35%) saturate(984%) hue-rotate(325deg) brightness(93%) contrast(87%);
 }
@@ -184,14 +225,50 @@ a.nav-link:before {
 }
 
 .white:hover {
-  color: #FFC557 !important;   /* or whatever hover color you want */
+  color: #FFC557 !important;
   text-decoration: none;
 }
 
 .category-column h4,
 .category-column h4 a {
   text-align: center !important;
-  display: block;             /* ensures centering is respected */
+  display: block;
   margin: 0 auto;
 }
+
+
+/* ===========================
+   INTRO BOX (if used elsewhere)
+   =========================== */
+
+.intro-box {
+  max-width: 800px;
+  margin: 2rem auto 0 auto;
+  padding: 1.5rem 2rem;
+  background-color: #152F55;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+.intro-box a {
+  color: #cce8ff;
+  text-decoration: underline;
+}
+
+
+/* ===========================
+   MAILING LIST CARD IN MARGIN
+   =========================== */
+
+/* Make sure the margin card always sits above colored bands */
+.column-margin {
+  position: relative;
+  z-index: 9999;
+}
+
+.column-margin .card {
+  position: relative;
+  z-index: 1000;
+}
+
 
