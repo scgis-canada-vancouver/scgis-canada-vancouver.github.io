@@ -20,6 +20,8 @@ Ramon is a postdoctoral research fellow in the [Integrated Remote Sensing Studio
 
 ## Sadie Russell, M.G.E.M
 
+Sadie is a PhD student in UBC Forestry, where her graduate work has focused on applying remote sensing to disturbance ecology across British Columbia. Her current research investigates how drone-based lidar can support operational pyrosilviculture prescriptions to reduce wildfire risk. Sadie is deeply engaged in scientific education and communication, having developed climate change education materials for students from primary school through university. Through SCGIS, Sadie hopes to build community and uplift early-career scientists and conservationists.
+
 ## Liam Irwin, M.G.E.M.
 
 Liam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond.
