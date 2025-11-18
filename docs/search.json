@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "About Us",
     "section": "",
-    "text": "The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.\nLearn more about their mission here"
+    "text": "The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.\nLearn more about their mission here\n\n\n\n\n\nRamon is a postdoctoral research fellow in the Integrated Remote Sensing Studio (IRSS), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community.\n\n\n\n\n\n\nLiam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond."
   },
   {
     "objectID": "about.html#ramon-melser",
@@ -123,14 +123,14 @@
     "href": "data_portals.html",
     "title": "Resources",
     "section": "",
-    "text": "Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.\nIf you have a useful GIS/conservation resource you don’t see listed, please let us know"
+    "text": "Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.\nIf you have a useful GIS/conservation resource you don’t see listed, please let us know\n\n\nThese are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
   },
   {
     "objectID": "data_portals.html#data-portals",
     "href": "data_portals.html#data-portals",
     "title": "Resources",
-    "section": "Data Portals",
-    "text": "Data Portals\nThese are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
+    "section": "",
+    "text": "These are primary, large-scale open data portals for municipal, regional, provincial, and federal GIS data.\n\nCity of Vancouver Open Data Portal\n\nThe city’s portal for high-resolution municipal data, including urban ecology, green spaces, street trees, and utilities.\n\nMetro Vancouver Open Data Portal\n\nProvides regional-scale data that cross municipal boundaries in the lower mainland, such as regional parks, land use, and remote sensing data.\n\nBC Data Catalogue\n\nContains datasets from B.C. government ministries, including wildlife, forestry, water, administrative boundaries, and base maps.\n\nGovernment of Canada Open Data Portal\n\nThe federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada)."
   },
   {
     "objectID": "data_portals.html#conservation-environmental-data-hubs",
@@ -165,14 +165,14 @@
     "href": "publications_news.html",
     "title": "Resources",
     "section": "",
-    "text": "Coming soon!"
+    "text": "This page features a curated selection of recent publications and news items related to conservation GIS. Want to see your article featured here? Contact us!\n\nPochailo, N., Viliani, L., Stolar, J., Stralberg, D., & Nielsen, S. E. (2025). Assessing the vulnerability and conservation potential of old‐growth forests in British Columbia, Canada. Ecosphere, 16(8), https://doi.org/10.1002/ecs2.70373\nMoore, J. W., Ulaski, M. E., Wilson, K. L., Martin, T. G., Kuiper, S. D., Peacock, S. J., … & Zdasiuk, B. J. (2025). A safe operating space for salmon watersheds under rapid climate change. Fish and Fisheries, 26(6), 1213-1228. https://doi.org/10.1111/faf.70027\nMuise, E. R., Coops, N. C., Hermosilla, T., & Ban, S. S. (2022). Assessing representation of remote sensing derived forest structure and land cover across a network of protected areas. Ecological Applications, 32(5), 10.1016/j.jag.2025.104899\nKuiper, S. D., Coops, N. C., White, J. C., Hinch, S. G., Tompalski, P., & Stackhouse, L. A. (2024). Enhanced watershed status evaluation: towards an integrated framework to assess fish habitat in forested watersheds using airborne laser scanning data. Forest Ecology and Management, 555, 10.1016/j.foreco.2024.121720\nMaltman, J. C., Coops, N. C., Rickbeil, G. J., Hermosilla, T., & Burton, A. C. (2025). Climate change mitigation through woodland caribou (Rangifer tarandus) habitat restoration in British Columbia. Environmental Research: Ecology, 4(2), 025004. https://doi.org/10.1088/2752-664X/adc0aa"
   },
   {
     "objectID": "publications_news.html#relevant-publications-news",
     "href": "publications_news.html#relevant-publications-news",
     "title": "Resources",
     "section": "",
-    "text": "Coming soon!"
+    "text": "This page features a curated selection of recent publications and news items related to conservation GIS. Want to see your article featured here? Contact us!\n\nPochailo, N., Viliani, L., Stolar, J., Stralberg, D., & Nielsen, S. E. (2025). Assessing the vulnerability and conservation potential of old‐growth forests in British Columbia, Canada. Ecosphere, 16(8), https://doi.org/10.1002/ecs2.70373\nMoore, J. W., Ulaski, M. E., Wilson, K. L., Martin, T. G., Kuiper, S. D., Peacock, S. J., … & Zdasiuk, B. J. (2025). A safe operating space for salmon watersheds under rapid climate change. Fish and Fisheries, 26(6), 1213-1228. https://doi.org/10.1111/faf.70027\nMuise, E. R., Coops, N. C., Hermosilla, T., & Ban, S. S. (2022). Assessing representation of remote sensing derived forest structure and land cover across a network of protected areas. Ecological Applications, 32(5), 10.1016/j.jag.2025.104899\nKuiper, S. D., Coops, N. C., White, J. C., Hinch, S. G., Tompalski, P., & Stackhouse, L. A. (2024). Enhanced watershed status evaluation: towards an integrated framework to assess fish habitat in forested watersheds using airborne laser scanning data. Forest Ecology and Management, 555, 10.1016/j.foreco.2024.121720\nMaltman, J. C., Coops, N. C., Rickbeil, G. J., Hermosilla, T., & Burton, A. C. (2025). Climate change mitigation through woodland caribou (Rangifer tarandus) habitat restoration in British Columbia. Environmental Research: Ecology, 4(2), 025004. https://doi.org/10.1088/2752-664X/adc0aa"
   },
   {
     "objectID": "mailing_list.html",
@@ -187,5 +187,33 @@
     "title": "Mailing List",
     "section": "",
     "text": "etc etc\n\n  \n    \n    Join the mailing list for event updates.\n\n    \n\n      Email\n      \n\n      First Name\n      \n\n      Last Name\n      \n\n      Affiliation\n      \n\n      Sign Up"
+  },
+  {
+    "objectID": "about.html#ramon-melser-phd",
+    "href": "about.html#ramon-melser-phd",
+    "title": "About Us",
+    "section": "",
+    "text": "Ramon is a postdoctoral research fellow in the Integrated Remote Sensing Studio (IRSS), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community."
+  },
+  {
+    "objectID": "about.html#sadie-russell-m.g.e.m",
+    "href": "about.html#sadie-russell-m.g.e.m",
+    "title": "About Us",
+    "section": "Sadie Russell, M.G.E.M",
+    "text": "Sadie Russell, M.G.E.M"
+  },
+  {
+    "objectID": "about.html#liam-irwin-m.g.e.m.",
+    "href": "about.html#liam-irwin-m.g.e.m.",
+    "title": "About Us",
+    "section": "",
+    "text": "Liam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond."
+  },
+  {
+    "objectID": "about.html#trevor-jones-phd",
+    "href": "about.html#trevor-jones-phd",
+    "title": "About Us",
+    "section": "Trevor Jones, PhD",
+    "text": "Trevor Jones, PhD"
   }
 ]

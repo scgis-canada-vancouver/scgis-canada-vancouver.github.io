@@ -1,8 +1,9 @@
 ---
 title: "Resources"
-format: html
 title-block-banner: "img/home/yvr_dsm_wide.png"
+page-layout: full
 ---
+<div class="centered-page-content">
 
 Below is a curated list of spatial data, and conservaiton related resources for Vancouver, southern British Columbia, and beyond. This page is intended to be a living document, growing with our community.
 
@@ -21,4 +22,4 @@ These are primary, large-scale open data portals for municipal, regional, provin
 * [**Government of Canada Open Data Portal**](https://open.canada.ca/en/open-data)
     * The federal portal for national-scale datasets. This portal contains data related to tidal fisheries (DFO), national parks (Parks Canada), federal species at risk (SARA), and climate (Environment and Climate Change Canada).
 
-
+</div>

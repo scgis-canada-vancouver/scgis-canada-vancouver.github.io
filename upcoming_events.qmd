@@ -1,9 +1,10 @@
 ---
 title: "Events"
-format: html
 title-block-banner: "img/home/yvr_dsm_eastvan.png"
+page-layout: full
 ---
 
+<div class="centered-page-content">
 
 ## Upcoming Events {#upcoming-events}
 
@@ -26,4 +27,4 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
     <https://www.scgis.org/conference>
 
 
-
+</div>

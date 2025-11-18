@@ -4,9 +4,10 @@ title-block-banner: "img/home/yvr_dsm.png"
 format:
   html:
     css: styles.css
+page-layout: full
 ---
 
-
+<div class="centered-page-content">
 
 ```{=html}
 <div class="signup-wrapper">
@@ -70,3 +71,5 @@ format:
   });
 </script>
 ```
+
+</div>

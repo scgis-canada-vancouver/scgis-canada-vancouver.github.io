@@ -1,10 +1,12 @@
 ---
 title: "About Us"
-format: html
 title-block-banner: "img/home/yvr_dsm_stanley.png"
+page-layout: full
 ---
 
-# About the SCGIS
+<div class="centered-page-content">
+
+# About SCGIS
 
 The Society for Conservation GIS is an all-volunteer U.S. based non-profit organization focused on advancing conservation GIS globally by building and supporting conservation GIS practioners.
 
@@ -12,12 +14,19 @@ The Society for Conservation GIS is an all-volunteer U.S. based non-profit organ
 
 # Chapter Representatives
 
-## Ramon Melser
+## Ramon Melser, PhD
 
 Ramon is a postdoctoral research fellow in the [Integrated Remote Sensing Studio (IRSS)](https://irsslab.forestry.ubc.ca/), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community.
 
-## Sadie Russell
+## Sadie Russell, M.G.E.M
 
-## Liam Irwin
+## Liam Irwin, M.G.E.M.
 
 Liam is a PhD Candidate at UBC Forestry working in remote sensing. His research focuses on integrating lidar (from drones and aircraft) into silvicultural practices. He is also involved in local conservation efforts at several regional parks including aiding in their integration of GIS into ecosystem restoration. As part of SCGIS Vancouver Liam hopes to bring technical and regional knowledge to help build the capacity of the GIS conservation community around Vancouver and beyond.
+
+# Advisory Members
+
+## Trevor Jones, PhD
+
+
+</div>

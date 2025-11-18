@@ -1,10 +1,14 @@
 ---
 title: "Events"
-format: html
 title-block-banner: "img/home/yvr_dsm_eastvan.png"
+page-layout: full
 ---
+
+<div class="centered-page-content">
 
 ## Past Events {#past-events}
 
 -   Coming Soon.
 
+
+</div>

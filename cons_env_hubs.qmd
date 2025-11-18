@@ -1,8 +1,10 @@
 ---
 title: "Resources"
-format: html
 title-block-banner: "img/home/yvr_dsm_wide.png"
+page-layout: full
 ---
+
+<div class="centered-page-content">
 
 ## Conservation & Environmental Data Hubs
 
@@ -14,3 +16,5 @@ These resources are more specialized, focusing specifically on biodiversity, eco
     * An interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.
 * [**Community Mapping Network (CMN)**](https://cmnmaps.ca/)
     * A network that supports community-based mapping and data collection. 
+    
+</div>

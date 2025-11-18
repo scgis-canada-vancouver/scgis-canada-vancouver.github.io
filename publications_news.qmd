@@ -1,9 +1,23 @@
 ---
 title: "Resources"
-format: html
 title-block-banner: "img/home/yvr_dsm_wide.png"
+page-layout: full
 ---
+
+<div class="centered-page-content">
 
 ## Relevant Publications & News
 
-Coming soon!
+This page features a curated selection of recent publications and news items related to conservation GIS. Want to see your article featured here? Contact us!
+
+-   Pochailo, N., Viliani, L., Stolar, J., Stralberg, D., & Nielsen, S. E. (2025). Assessing the vulnerability and conservation potential of old‐growth forests in British Columbia, Canada. *Ecosphere*, *16*(8), <https://doi.org/10.1002/ecs2.70373>
+
+-   Moore, J. W., Ulaski, M. E., Wilson, K. L., Martin, T. G., Kuiper, S. D., Peacock, S. J., ... & Zdasiuk, B. J. (2025). A safe operating space for salmon watersheds under rapid climate change. *Fish and Fisheries*, *26*(6), 1213-1228. <https://doi.org/10.1111/faf.70027>
+
+-   Muise, E. R., Coops, N. C., Hermosilla, T., & Ban, S. S. (2022). Assessing representation of remote sensing derived forest structure and land cover across a network of protected areas. *Ecological Applications*, *32*(5), [10.1016/j.jag.2025.104899](https://doi.org/10.1016/j.jag.2025.104899)
+
+-   Kuiper, S. D., Coops, N. C., White, J. C., Hinch, S. G., Tompalski, P., & Stackhouse, L. A. (2024). Enhanced watershed status evaluation: towards an integrated framework to assess fish habitat in forested watersheds using airborne laser scanning data. *Forest Ecology and Management*, *555*, [10.1016/j.foreco.2024.121720](https://doi.org/10.1016/j.foreco.2024.121720)
+
+-   Maltman, J. C., Coops, N. C., Rickbeil, G. J., Hermosilla, T., & Burton, A. C. (2025). Climate change mitigation through woodland caribou (Rangifer tarandus) habitat restoration in British Columbia. *Environmental Research: Ecology*, *4*(2), 025004. <https://doi.org/10.1088/2752-664X/adc0aa>
+
+</div>
