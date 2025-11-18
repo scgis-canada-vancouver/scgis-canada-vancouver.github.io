@@ -6,105 +6,69 @@ format:
     css: styles.css
 ---
 
-
-
-:::::: {.column-screen .blue-section style="background-color:#253351;"}
-::::: column-screen-inset
-
-<div style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;">
-
+::::: {.column-screen .blue-section style="background-color:#253351;"}
+:::: {.column-screen-inset}
+::: {style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;"}
 Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
 
-This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia.
+Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
 
-Our chapter is an affiliated chapter of the 
-<a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
-
-SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected 
-<a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
-
-</div>
-
+SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
+:::
+::::
 :::::
-::::::
+
+::::: {.column-screen style="background-color:#ffffff;"}
+:::: {.column-screen-inset}
+::: {.home-column-image .col-left}
+<a href="about.html"></a>
+:::
+
+::: {.home-column-text .col-right}
+<center>
+
+<h1 class="heading-home" style="color: #152F55;">
+
+About Us
+
+</h1>
+
+::: {style="max-width: 650px; margin: 0 auto;"}
+<p style="color:#152F55; font-style: italic;">
+
+This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia. Membership to our Chapter is free and open to anyone! Check out our **Members Map** below (anonymous), or learn more on our About Us page. You can sign up to be a member by joining our Mailing List (Below).
+
+</p>
+:::
+
+::: {style="max-width: 650px; margin: 0 auto;padding:1.5rem 0"}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(leaflet); library(terra)
+
+members <- read.csv("https://raw.githubusercontent.com/scgis-canada-vancouver/scgis-canada-vancouver.github.io/main/docs/Members_map.csv")
+
+members.vect <- vect(members, geom = c("lng", "lat"), crs = "EPSG:4326")
+
+
+leaflet(members.vect) %>%
+  addProviderTiles("Esri.WorldImagery") %>%
+  addMarkers(
+    clusterOptions = markerClusterOptions(
+      singleMarkerMode = TRUE
+    )
+  ) %>%
+  setView(-123.1207, 49.2827, 9)
 
 
 
-::: column-margin
-```{=html}
-<div class="card" style="padding:1rem; border-radius:10px;border:1px solid #253351;">
-  <h5 class="card-title" style="margin:0;">Mailing List</h5>
-  <p class="card-subtitle mb-10" style="margin:.25rem 0 0.25rem 0; opacity:1;">
-    Join the mailing list for event updates.
-  </p>
-
-  <form id="signup-form">
-    <label for="email" style="display:block; margin-top:.6rem; font-weight:600;">Email</label>
-    <input id="email" name="email" type="email" required autocomplete="email"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="firstName" style="display:block; margin-top:.6rem; font-weight:600;">First Name</label>
-    <input id="firstName" name="firstName" type="text" required autocomplete="given-name"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="lastName" style="display:block; margin-top:.6rem; font-weight:600;">Last Name</label>
-    <input id="lastName" name="lastName" type="text" required autocomplete="family-name"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <label for="affiliation" style="display:block; margin-top:.6rem; font-weight:600;">Affiliation</label>
-    <input id="affiliation" name="affiliation" type="text" autocomplete="organization"
-           style="width:100%; padding:.5rem; border:1px solid #ccc; border-radius:8px;">
-
-    <button type="submit"
-            style="margin-top:1rem; padding:.6rem 1rem; border:0; border-radius:8px; cursor:pointer;background-color: #277d8e; color: white;">
-      Sign Up
-    </button>
-  </form>
-
-  <div id="signup-msg" aria-live="polite" style="margin-top:.6rem; font-size:.95rem;"></div>
-</div>
-
-<script>
-  // Your deployed Apps Script Web App URL (must be the /exec URL)
-  const WEB_APP_URL =
-    "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
-
-  const form = document.getElementById("signup-form");
-  const msg  = document.getElementById("signup-msg");
-
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    msg.textContent = "Submitting…";
-
-    const payload = {
-      email:       document.getElementById("email").value.trim(),
-      firstName:   document.getElementById("firstName").value.trim(),
-      lastName:    document.getElementById("lastName").value.trim(),
-      affiliation: document.getElementById("affiliation").value.trim()
-    };
-
-    try {
-      await fetch(WEB_APP_URL, {
-        method: "POST",
-        mode: "no-cors",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
-      form.reset();
-      msg.textContent = "Thanks! You're on the list.";
-    } catch (err) {
-      console.error(err);
-      msg.textContent = "Sorry—something went wrong. Please try again.";
-    }
-  });
-</script>
 ```
+
 :::
 
 
 
-:::::: {.column-screen style="background-color:#ffffff;"}
-::::: column-screen-inset
+::::: {.column-screen .full-bleed-blue style="background-color:#253351;"}
+:::: {.column-screen-inset}
 ::: {.home-column-image .col-left}
 <a href="events.html#upcoming-events"></a>
 :::
@@ -112,24 +76,20 @@ SCGIS helps bring together conservation practitioners and GIS technology by supp
 ::: {.home-column-text .col-right}
 <center>
 
-<h1 class="heading-home" style="color: #152F55;">
+<h1 class="heading-home" style="color: #ffffff;">
 Events
 </h1>
 
-<div style="max-width: 650px; margin: 0 auto;">
-  <p style="color:#152F55; font-style: italic;">
-    SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. 
-    Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates. 
-  </p>
-</div>
-
-</center>
+::: {style="max-width: 650px; margin: 0 auto;"}
+<p style="color:#ffffff; font-style: italic;">
+SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.
+</p>
+:::
 
 ```{r, echo = FALSE}
 #| warning: false
 
 library(htmltools)
-
 
 tags$div(class = "category-row",
 
@@ -137,38 +97,58 @@ tags$div(class = "category-row",
   tags$div(
     class = "category-column",
     tags$a(
-      href = "past_events.html",   # <--- past events tab
+      href = "past_events.html",
       tags$img(
-        src = "images/vectors/history.svg",
+        src = "images/vectors/history_white.svg",
         class = "category-image"
       )
     ),
     tags$h4(
-      style = "text-align:center; color:#152F55;",
+      style = "text-align:center;",
       tags$a(
-        style = "color:#152F55; text-decoration:none;",
+        class = "category-link-white",
         href = "past_events.html",
         "Past Events"
       )
     )
   ),
 
-  # --- UPCOMING EVENTS (right) ---
+  # --- UPCOMING EVENTS (middle) ---
   tags$div(
     class = "category-column",
     tags$a(
-      href = "upcoming_events.html",   # <--- upcoming events tab
+      href = "upcoming_events.html",
       tags$img(
-        src = "images/vectors/event.svg",
+        src = "images/vectors/event_white.svg",
         class = "category-image"
       )
     ),
     tags$h4(
-      style = "text-align:center; color:#152F55;",
+      style = "text-align:center;",
       tags$a(
-        style = "color:#152F55; text-decoration:none;",
+        class = "category-link-white",
         href = "upcoming_events.html",
         "Upcoming Events"
+      )
+    )
+  ),
+  
+  # --- Mailing List (right) ---
+  tags$div(
+    class = "category-column",
+    tags$a(
+      href = "mailing_list.html",
+      tags$img(
+        src = "images/vectors/mail_list_white.svg",
+        class = "category-image"
+      )
+    ),
+    tags$h4(
+      style = "text-align:center;",
+      tags$a(
+        class = "category-link-white",
+        href = "mailing_list.html",
+        "Mailing List"
       )
     )
   )
@@ -176,27 +156,24 @@ tags$div(class = "category-row",
 ```
 
 
-:::::: {.full-bleed-blue}
-::::: column-screen-inset
+<br>
 
+</center>
+:::
+:::: 
+:::::
+
+::::: {.column-screen style="background-color:#ffffff;"}
+:::: {.column-screen-inset}
 ::: {.home-column-image .col-left}
-
-
-<a href="https://scgisvancouver.org/resources.html">
-
-</a>
+<a href="https://scgisvancouver.org/resources.html"></a>
 :::
 
 ::: {.home-column-text .col-right}
-<center>
 
-<h1 class="heading-home" style="color: #fff;">
+<center> <h1 class="heading-home" style="color: #152F55;"> Resources </h1>
 
-Resources
-
-</h1>
-
-[Curated data portals, hubs, and papers related to conservation in Vancouver, BC ]{style="color: #fff; font-style: italic"}
+[Curated data portals, hubs, and papers related to conservation GIS in Vancouver, BC]{style="color: #152F55; font-style: italic"}
 
 </center>
 
@@ -212,13 +189,13 @@ tags$div(class = "category-row",
     tags$a(href = "data_portals.html",
       tags$img(
         href = "data_portals.html",
-        src = "images/vectors/data.svg",
-        style = "color:#fff !important;",
-        class = "category-image honey-white"
+        src = "images/vectors/data_blue.svg",
+        class = "category-image-blue"
+
   )),
   tags$h4(style = "text-align:center;",
       tags$a(
-        class = "white",
+        class = "category-link-blue",
         href = "https://scgisvancouver.org/data_portals.html", "Data Portals"))),
   
   tags$div( 
@@ -226,13 +203,12 @@ tags$div(class = "category-row",
     tags$a(href = "cons_env_hubs.html",
       tags$img(
         href = "cons_env_hubs.html",
-        src = "images/vectors/hub.svg",
-        style = "color:#fff !important;",
-        class = "category-image honey-white"
+        src = "images/vectors/hub_blue.svg",
+        class = "category-image-blue"
   )),
   tags$h4(style = "text-align:center",
       tags$a(
-        class = "white",
+        class = "category-link-blue",
         href = "https://scgisvancouver.org/cons_env_hubs.html", "Conservation Hubs"))),
   
   tags$div( 
@@ -240,19 +216,21 @@ tags$div(class = "category-row",
     tags$a(href = "publications_news.html",
       tags$img(
         href = "publications_news.html",
-        src = "images/vectors/publications.svg",
-        style = "color:#fff !important;",
-        class = "category-image honey-white"
+        src = "images/vectors/publication_blue.svg",
+        class = "category-image-blue"
   )),
   tags$h4(style = "text-align:center",
       tags$a(
-        class = "white",
+        class = "category-link-blue",
         href = "https://scgisvancouver.org/publications_news.html", "Publications & News")))
   
   
   
   )
 ```
+
+</center> 
+
 :::
-:::::
-::::::
+
+

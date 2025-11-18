@@ -1,0 +1,72 @@
+---
+title: "Mailing List"
+title-block-banner: "img/home/yvr_dsm.png"
+format:
+  html:
+    css: styles.css
+---
+
+
+
+```{=html}
+<div class="signup-wrapper">
+  <div class="signup-card">
+    <h5 class="card-title">Mailing List</h5>
+    <p class="card-subtitle">Join the mailing list for event updates. We do not share your information with any external parties.</p>
+
+    <form id="signup-form">
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required autocomplete="email">
+
+      <label for="firstName">First Name</label>
+      <input id="firstName" name="firstName" type="text" required autocomplete="given-name">
+
+      <label for="lastName">Last Name</label>
+      <input id="lastName" name="lastName" type="text" required autocomplete="family-name">
+
+      <label for="affiliation">Affiliation</label>
+      <input id="affiliation" name="affiliation" type="text" autocomplete="organization">
+      <p class="card-subtitle">If you would like to be featured on the home page Members' Map, please fill out your affiliation! Additions to the map are anonymous, and we use a generic address associated with your institution.  </p>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <div id="signup-msg" aria-live="polite"></div>
+  </div>
+</div>
+
+<script>
+  const WEB_APP_URL =
+    "https://script.google.com/macros/s/AKfycbz_JkgiIFZNZlUv1OHENZJJvqQbEyRB3azFXZNKuaKwuYc_tNAPGgmDpPmsRhLLDBE/exec";
+
+  const form = document.getElementById("signup-form");
+  const msg  = document.getElementById("signup-msg");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    msg.textContent = "Submitting…";
+
+    const payload = {
+      email:       document.getElementById("email").value.trim(),
+      firstName:   document.getElementById("firstName").value.trim(),
+      lastName:    document.getElementById("lastName").value.trim(),
+      affiliation: document.getElementById("affiliation").value.trim()
+    };
+
+    try {
+      await fetch(WEB_APP_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      form.reset();
+      msg.textContent = "Thanks! You're on the list.";
+    } catch (err) {
+      console.error(err);
+      msg.textContent = "Sorry—something went wrong. Please try again.";
+    }
+  });
+</script>
+```

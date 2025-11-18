@@ -169,12 +169,37 @@ main.content {
   flex-wrap: wrap;           /* let them wrap on small screens */
 }
 
-/* Make each item a fixed-ish card, no floats */
-.category-column {
-  flex: 0 1 220px;           /* grow/shrink but keep a nice min width */
-  text-align: center;
-  box-sizing: border-box;
-  float: none !important;    /* override any old float rules */
+/* Category row link styling: dark blue, no underline, no hover color change */
+/* Category row links: control underline globally, color per class */
+/* Remove underline globally in the icon rows */
+.category-row a {
+  text-decoration: none !important;
+}
+
+/* Blue links for Resources row */
+.category-link-blue {
+  color: #253351 !important;         /* your dark blue */
+  text-decoration: none !important;
+}
+
+.category-link-blue:hover,
+.category-link-blue:visited,
+.category-link-blue:active {
+  color: #253351 !important;         /* same color on hover/visited */
+  text-decoration: none !important;
+}
+
+/* White links for Events row (keep as-is) */
+.category-link-white {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.category-link-white:hover,
+.category-link-white:visited,
+.category-link-white:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
 }
 
 /* Icon styling */
@@ -186,6 +211,44 @@ main.content {
   backface-visibility: hidden;
   transform: perspective(1px) translate3d(0, 15px, 0);
   transition: all .1ms;
+}
+/* Blue link style for category labels on white background */
+.category-link-blue {
+  color: #253351 !important;         /* your hex blue */
+  text-decoration: none !important;  /* remove underline */
+}
+
+.category-link-blue:hover {
+  color: #6c92de !important;         /* match navbar hover blue */
+  text-decoration: none;
+}
+
+/* White links for the Events icon labels */
+.category-link-white {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.category-link-white:hover {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+/* Blue SVG icons for Resources row */
+.category-image-blue {
+  width: 8rem;
+  height: 8rem;
+  display: block;
+  margin: 0 auto 0.75rem auto;
+  filter: none !important;      /* don't recolor the SVG */
+}
+
+/* Match the responsive behavior of other category images */
+@media screen and (max-width: 952px) {
+  .category-image-blue {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
 }
 
 /* Small screens: stack them */
@@ -316,4 +379,144 @@ main.content > .column-margin:first-of-type {
 /* Prevent the main content from stretching */
 .column-screen > * {
   align-self: center;
+}
+
+
+/* ===========================
+   MAILING LIST V2
+   =========================== */
+
+/* Center wrapper */
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Card styling */
+.signup-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 1.5rem;
+  border: 1px solid #253351;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* Typography */
+.signup-card .card-title {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.signup-card .card-subtitle {
+  margin: 0.5rem 0 1rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* Form layout */
+#signup-form label {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+}
+
+#signup-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 0.2rem;
+}
+
+/* Button */
+#signup-form button {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #277d8e;
+  color: white;
+  width: 100%;
+}
+
+/* Message */
+#signup-msg {
+  margin-top: 0.8rem;
+  font-size: 0.95rem;
+}
+
+
+/* ===========================
+   Leaflet Edits
+   =========================== */
+   
+/* Force Leaflet marker cluster groups to full opacity */
+.leaflet-marker-icon,
+.leaflet-marker-icon * {
+  opacity: 1 !important;
+}
+
+/* Remove the outer halo bubble */
+.marker-cluster {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Define a single, centered bubble for all cluster sizes */
+.marker-cluster-small,
+.marker-cluster-medium,
+.marker-cluster-large {
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  border: 3px solid white !important;
+  background-color: #253351 !important;  /* your navy color */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Inner circle: fill the bubble, no gradient, and also flex-center the span */
+.marker-cluster div {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  background: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* Number inside the bubble */
+.marker-cluster span {
+  font-size: 22px !important;
+  font-weight: 700;
+  text-align: center;
+  line-height: normal !important;  /* flexbox handles vertical centering */
+  color: white !important;
+}
+
+
+/* Single-marker bubble (styled exactly like clusters) */
+.single-marker {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: #253351;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

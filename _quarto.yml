@@ -9,6 +9,12 @@ lang: en
 website:
   title: "SCGIS Vancouver"
   favicon: "img/home/favicon.png"
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Sign up for our [mailing list](mailing_list.html) today!"
+    type: primary
+    position: below-navbar
   navbar:
     search: true
     pinned: false
@@ -30,6 +36,8 @@ website:
           text: "Upcoming Events"
         - href: past_events.qmd
           text: "Past Events"
+        - href: mailing_list.qmd
+          text: "Mailing List"
     tools:
       - icon: envelope
         href: mailto:scgis.canada.vancouver@gmail.com
