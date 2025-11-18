@@ -520,22 +520,3 @@ main.content > .column-margin:first-of-type {
   justify-content: center;
   text-align: center;
 }
-
-
-
-
-/* Remove Quarto's left-side margin column everywhere */
-.page-columns .column-margin {
-  display: none !important;
-}
-
-/* Make the main content span the whole grid */
-.page-columns .content {
-  grid-column: screen;
-}
-
-.centered-page-content {
-  max-width: 750px;     /* choose your preferred width */
-  margin: 0 auto;       /* fully centered */
-  padding: 1.5rem 1rem; /* optional spacing */
-}
