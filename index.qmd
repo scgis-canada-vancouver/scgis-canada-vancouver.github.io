@@ -45,7 +45,7 @@ This group aims to bring together the community of conservation-related Geograph
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet); library(terra)
 
-members <- read.csv("https://raw.githubusercontent.com/scgis-canada-vancouver/scgis-canada-vancouver.github.io/main/docs/Members_map.csv")
+members <- read.csv("D:/github/scgis-canada-vancouver.github.io/docs/Member_map.csv")
 
 members.vect <- vect(members, geom = c("lng", "lat"), crs = "EPSG:4326")
 
