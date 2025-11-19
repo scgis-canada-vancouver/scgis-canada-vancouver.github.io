@@ -539,3 +539,24 @@ main.content > .column-margin:first-of-type {
   margin: 0 auto;       /* fully centered */
   padding: 1.5rem 1rem; /* optional spacing */
 }
+
+
+.nav-footer {
+  background-color: #152F55;
+  color: white;
+}
+
+.nav-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;          /* pushes photo to the left */
+  margin: 0 1.2rem 1rem 0;   /* space between photo and text */
+  border: 3px solid #152F55; /* optional */
+}

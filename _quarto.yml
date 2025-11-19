@@ -8,6 +8,8 @@ lang: en
 
 website:
   title: "SCGIS Vancouver"
+  page-footer: 
+    center: SCGIS Vancouver, Canada (2025)
   favicon: "img/home/favicon.png"
   announcement:
     icon: info-circle

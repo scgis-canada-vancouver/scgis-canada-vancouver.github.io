@@ -11,9 +11,7 @@ format:
 ::: {style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;"}
 Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
 
-Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
-
-SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
+Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>. SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in a GIS conservation community.
 :::
 ::::
 :::::
@@ -36,7 +34,7 @@ About Us
 ::: {style="max-width: 650px; margin: 0 auto;"}
 <p style="color:#152F55; font-style: italic;">
 
-This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia. Membership to our Chapter is free and open to anyone! Check out our **Members Map** below (anonymous), or learn more on our About Us page. You can sign up to be a member by joining our Mailing List (Below).
+This group aims to bring together the community of conservation-related Geographic Information System (GIS) practitioners across Vancouver and the broader region of southern British Columbia. Membership to our Chapter is free and open to anyone! Check out our **Members Map** below (anonymous), or learn more on our [About Us](about.html) page. You can sign up to be a member by joining our [Mailing List](mailing_list.html) (Below).
 
 </p>
 :::
@@ -45,7 +43,7 @@ This group aims to bring together the community of conservation-related Geograph
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet); library(terra)
 
-members <- read.csv("D:/github/scgis-canada-vancouver.github.io/docs/Member_map.csv")
+members <- read.csv("https://scgis-canada-vancouver.github.io/Member_map.csv")
 
 members.vect <- vect(members, geom = c("lng", "lat"), crs = "EPSG:4326")
 

@@ -14,11 +14,15 @@ The Society for Conservation GIS is an all-volunteer U.S. based non-profit organ
 
 # Chapter Representatives
 
+The Chapter representatives run the week-by-week operations of our Chapter. If you have any questions about SCGIS, ideas for an event, or would like to contribute to the Chapter in any way - you can contact them at [scgis.canada.vancouver@gmail.com](mailto:scgis.canada.vancouver@gmail.com).
+
 ## Ramon Melser, PhD
 
 Ramon is a postdoctoral research fellow in the [Integrated Remote Sensing Studio (IRSS)](https://irsslab.forestry.ubc.ca/), at the University of British Columbia (UBC). His research explores the use of multi-source remote sensing and geospatial datasets towards enhanced monitoring of the carbon cycle across boreal landscapes. During his time at UBC, Ramon has been involved in supporting a wide variety of undergraduate and graduate GIS courses, course development initiatives, and serves as a Teaching Assistant (TA) Training Coordinator for the Faculty of Forestry. As part of SCGIS Vancouver, he provides technical expertise on satellite remote sensing and looks forward to supporting local GIS practitioners in growing their skillset, highlighting their work, and connecting with their community.
 
 ## Sadie Russell, M.G.E.M
+
+Sadie is a PhD student in UBC Forestry, where her graduate work has focused on applying remote sensing to disturbance ecology across British Columbia. Her current research investigates how drone-based lidar can support operational pyro-silviculture prescriptions to reduce wildfire risk. Sadie is deeply engaged in scientific education and communication, having developed climate change education materials for students from primary school through university. Through SCGIS, Sadie hopes to build community and uplift early-career scientists and conservationists.
 
 ## Liam Irwin, M.G.E.M.
 
@@ -26,7 +30,12 @@ Liam is a PhD Candidate at UBC Forestry working in remote sensing. His research 
 
 # Advisory Members
 
+Advisory members support the Chapter with their technical support and great ideas!
+
+<img src="img/about/trevor.jpg" class="profile-photo">
+
 ## Trevor Jones, PhD
 
+For 20+ years, Trevor has been combining geospatial and field data to produce maps, understand change, make predictions, and assist decision makers across a variety of forested landscapes.  Trevor’s work as a scientist, educator, program developer, and team builder involves communities, conservation non-profits, Universities, governments, and private sector organizations, and includes 20 countries across five continents.  Trevor is Adjunct Faculty at UBC, a co-founder and the Global Technical Lead for Tayo Climate Partners, and the Blue Forests and Geospatial advisor for Blue Ventures Conservation.  
 
 </div>
