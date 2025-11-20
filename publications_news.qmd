@@ -8,7 +8,7 @@ page-layout: full
 
 ## Relevant Publications & News
 
-This page features a curated selection of recent publications and news items related to conservation GIS. Want to see your article featured here? Contact us!
+This page features a curated selection of recent publications and news items related to conservation GIS in British Columbia. Want to see your article featured here? Contact us!
 
 -   Pochailo, N., Viliani, L., Stolar, J., Stralberg, D., & Nielsen, S. E. (2025). Assessing the vulnerability and conservation potential of old‐growth forests in British Columbia, Canada. *Ecosphere*, *16*(8), <https://doi.org/10.1002/ecs2.70373>
 

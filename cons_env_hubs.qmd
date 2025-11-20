@@ -8,7 +8,7 @@ page-layout: full
 
 ## Conservation & Environmental Data Hubs
 
-These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia.
+These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia, Canada.
 
 * [**BC Conservation Data Centre (CDC)**](https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre)
     * Information on species and ecosystems at risk in B.C. 
