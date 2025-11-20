@@ -18,14 +18,10 @@ output file: index.knit.md
 
 [
 WARNING] Div at line 119 column 1 unclosed at line 228 column 1, closing implicitly.
-[WARNING] Div at line 
-118 column 1 unclosed at line 228 column 1, closing implicitly.
-[WARNING] Div at line 19 co
-lumn 1 unclosed at line 228 column 1, closing implicitly.
-[WARNING] Div at line 14 column 1 unc
-losed at line 228 column 1, closing implicitly.
-[WARNING] Div at line 13 column 1 un
-closed at line 228 column 1, closing implicitly.
+[WARNING] Div at line 118 column 1 unclosed at line 228 column 1, closing implicitly.
+[WARNING] Div at line 19 column 1 unclosed at line 228 column 1, closing implicitly.
+[WARNING] Div at line 14 column 1 unclosed at line 228 column 1, closing implicitly.
+[WARNING] Div at line 13 column 1 unclosed at line 228 column 1, closing implicitly.
 
 
 
