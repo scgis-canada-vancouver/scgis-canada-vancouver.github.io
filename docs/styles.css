@@ -520,3 +520,19 @@ main.content > .column-margin:first-of-type {
   justify-content: center;
   text-align: center;
 }
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;          /* pushes photo to the left */
+  margin: 0 1.2rem 1rem 0;   /* space between photo and text */
+  border: 3px solid #152F55; /* optional */
+}
+
+.centered-page-content {
+  max-width: 800px;     /* or 650–900px depending on your preference */
+  margin: 0 auto;       /* centers the block */
+  padding: 1rem 1.5rem; /* optional spacing */
+}
