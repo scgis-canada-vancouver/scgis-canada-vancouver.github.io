@@ -74,7 +74,32 @@ leaflet(members.vect) %>%
     minimized = FALSE,                    # start expanded
     zoomLevelOffset = -6     
   )%>%
-  setView(-123.3507, 49.2027, 10)
+  htmlwidgets::onRender("
+    function(el, x) {
+
+      // Define custom control
+      L.Control.Watermark = L.Control.extend({
+        onAdd: function(map) {
+          var img = L.DomUtil.create('img');
+          img.src = 'img/home/scgis_logo.png';   // adjust path
+          img.style.width = '100px';
+          return img;
+        },
+        onRemove: function(map) {
+          // nothing to do
+        }
+      });
+
+      // Factory
+      L.control.watermark = function(opts) {
+        return new L.Control.Watermark(opts);
+      }
+
+      // Add control to map
+      L.control.watermark({ position: 'bottomleft' }).addTo(this);
+    }
+  ") %>%
+  setView(-123.1007, 49.2527, 11)
 
 
 
