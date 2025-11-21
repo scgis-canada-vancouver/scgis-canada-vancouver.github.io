@@ -74,7 +74,7 @@ leaflet(members.vect) %>%
     minimized = FALSE,                    # start expanded
     zoomLevelOffset = -6     
   )%>%
-  setView(-123.0507, 49.2427, 11)
+  setView(-123.3507, 49.2027, 10)
 
 
 
