@@ -39,9 +39,13 @@ This group aims to bring together the community of conservation-related Geograph
 </p>
 :::
 
+
+
 ::: {style="max-width: 650px; margin: 0 auto;padding:1.5rem 0"}
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet); library(terra)
+
+
 
 members <- read.csv("https://raw.githubusercontent.com/scgis-canada-vancouver/scgis-canada-vancouver.github.io/main/Member_map.csv")
 
@@ -57,7 +61,20 @@ leaflet(members.vect) %>%
       singleMarkerMode = TRUE
     )
   ) %>%
-  setView(-123.1207, 49.2827, 9)
+  addMiniMap(
+    tiles = providers$Esri.WorldImagery,  # same tile provider as main map
+    toggleDisplay = TRUE,                 # show a collapse/expand button
+    aimingRectOptions = list(
+      color = "#FFF",   # outline color
+      weight = 2,          # line thickness
+      opacity = 1,         # full opacity
+      fillColor = "#FFF",  # fill color
+      fillOpacity = 0       # transparency of fill
+    ),
+    minimized = FALSE,                    # start expanded
+    zoomLevelOffset = -6     
+  )%>%
+  setView(-123.0507, 49.2427, 11)
 
 
 
