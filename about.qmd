@@ -12,6 +12,62 @@ The Society for Conservation GIS is an all-volunteer U.S. based non-profit organ
 
 [Learn more about their mission here](https://www.scgis.org/about)
 
+# Our Members
+
+SGIS brings together GIS enthusiasts across academia, the public sector, and private/consulting groups. Chapter membership is free and open to all - all you need to do is sign up for our [Mailing List](mailing_list.html)!
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+members <- read.csv("https://raw.githubusercontent.com/scgis-canada-vancouver/scgis-canada-vancouver.github.io/main/Member_map.csv")
+
+library(ggplot2)
+library(dplyr)
+library(RColorBrewer)
+library(plotly)
+
+aff_df <- members %>%
+  mutate(
+    Aff_short = trimws(Aff_short),
+    Aff_short = ifelse(is.na(Aff_short) | Aff_short == "", "Other", Aff_short)
+  ) %>%
+  count(Aff_short) %>%
+  arrange(desc(n))
+
+# Dynamic color palette (optional)
+n_colors <- length(unique(aff_df$Aff_short))
+palette_colors <- colorRampPalette(brewer.pal(8, "Set2"))(n_colors)
+
+total_n <- sum(aff_df$n)
+
+plot_ly(
+  data   = aff_df,
+  labels = ~Aff_short,
+  values = ~n,
+  type   = "pie",
+  textinfo = "none",
+  hovertemplate = ~paste0(
+    Aff_short, "<br>",
+    "Count: ", n,
+    "<extra></extra>"
+  ),
+  hole = 0.5,           # donut hole
+  marker = list(colors = palette_colors)
+) |>
+  layout(
+    showlegend = TRUE,
+    annotations = list(
+      list(
+        x = 0.5,
+        y = 0.5,
+        text = total_n,  # total in the middle
+        showarrow = FALSE,
+        font = list(size = 20, family = "Arial", color = "black")
+      )
+    )
+  )
+
+```
+
 # Chapter Representatives
 
 The Chapter representatives run the week-by-week operations of our Chapter. If you have any questions about SCGIS, ideas for an event, or would like to contribute to the Chapter in any way - you can contact them at [scgis.canada.vancouver@gmail.com](mailto:scgis.canada.vancouver@gmail.com).
