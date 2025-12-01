@@ -74,14 +74,20 @@ leaflet(members.vect) %>%
     minimized = FALSE,                    # start expanded
     zoomLevelOffset = -6     
   )%>%
+   # --- Load the EdgeMarker plugin JS into this widget ---
+  htmlwidgets::prependContent(
+    htmltools::tags$script(
+      src = "https://cdn.jsdelivr.net/gh/ubergesundheit/Leaflet.EdgeMarker/Leaflet.EdgeMarker.js"
+    )
+  ) %>%
+  # --- Add watermark AND edge markers in a single onRender() ---
   htmlwidgets::onRender("
     function(el, x) {
-
-      // Define custom control
+      // --- Watermark control ---
       L.Control.Watermark = L.Control.extend({
         onAdd: function(map) {
           var img = L.DomUtil.create('img');
-          img.src = 'img/home/scgis_logo.png';   // adjust path
+          img.src = 'img/home/scgis_logo.png';   // adjust path as needed
           img.style.width = '100px';
           return img;
         },
@@ -90,13 +96,27 @@ leaflet(members.vect) %>%
         }
       });
 
-      // Factory
       L.control.watermark = function(opts) {
         return new L.Control.Watermark(opts);
-      }
+      };
 
-      // Add control to map
       L.control.watermark({ position: 'bottomleft' }).addTo(this);
+
+      // --- EdgeMarker plugin ---
+      if (L.edgeMarker) {
+        var edgeMarkerLayer = L.edgeMarker({
+          icon: L.icon({
+            iconUrl: 'img/home/arrow.png',
+            clickable: true,
+            iconSize: [48, 48],
+            iconAnchor: [24, 24]
+          }),
+          rotateIcons: true,
+          layerGroup: null // null = look at all markers / circles on the map
+        }).addTo(this);
+      } else {
+        console.error('Leaflet.EdgeMarker plugin was not loaded correctly.');
+      }
     }
   ") %>%
   setView(-123.1007, 49.2527, 11)
