@@ -542,5 +542,5 @@ main.content > .column-margin:first-of-type {
   object-fit: cover;
   float: center;          /* pushes photo to the left */
   margin: 0 1.2rem 1rem 0;   /* space between photo and text */
-  border: 3px solid #152F55; /* optional */
+  border: 3px solid #FFFFFF; /* optional */
 }
