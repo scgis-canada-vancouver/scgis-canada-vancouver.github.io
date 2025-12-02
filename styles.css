@@ -537,3 +537,10 @@ main.content > .column-margin:first-of-type {
   padding: 1rem 1.5rem; /* optional spacing */
 }
 
+.group-photo {
+  width: 600px;
+  object-fit: cover;
+  float: center;          /* pushes photo to the left */
+  margin: 0 1.2rem 1rem 0;   /* space between photo and text */
+  border: 3px solid #152F55; /* optional */
+}
