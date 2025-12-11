@@ -19,6 +19,7 @@ SGIS brings together GIS enthusiasts across academia, the public sector, and pri
 
 members <- read.csv("https://raw.githubusercontent.com/scgis-canada-vancouver/scgis-canada-vancouver.github.io/main/Member_map.csv")
 
+
 library(ggplot2)
 library(dplyr)
 library(RColorBrewer)
