@@ -16,5 +16,9 @@ page-layout: full
     GIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness. This event brings together **students, educators, researchers, and industry professionals** who share an interest in geography, cartography, remote sensing, spatial data science, and related fields.\
     <https://gis.ubc.ca/event/gis-day-2025/>
 
+    -   **December 2, 2025** - Free SCGIS Webinar:\
+    Advancing Conservation and Community Resilience with Thermal and Hyperspectral Remote Sensing:     Applications from NASA’s ECOSTRESS and EMIT Missions\
+    This upcoming webinar will first highlight the use of ECOSTRESS data for urban heat analysis and   mitigation. It will then introduce conservation-related applications of EMIT data, including habitat as well as plant trait and diversity mapping. Finally, the last presentation will explore a combined use of both EMIT and ECOSTRESS data for assessing pre-wildfire risk in Los Angeles, California.
+    <https://us06web.zoom.us/webinar/register/WN_P-WgfwuYQButrB-Cdjgm0Q#/registration>
 
 </div>
