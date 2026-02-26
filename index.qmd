@@ -144,9 +144,9 @@ Events
 </h1>
 
 ::: {style="max-width: 650px; margin: 0 auto;"}
-<p style="color:#ffffff; font-style: italic;">
+<p style="color: #ffffff; font-style: italic;">
 
-SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.
+[SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list and follow us on social media for updates.]{style="color: #ffffffff; font-style: italic"}
 
 </p>
 :::
@@ -302,24 +302,3 @@ tags$div(class = "category-row",
 :::
 :::::
 ::::::
-
-::::::::::::::
-
-::::::::::::::::
-
-:::::::::::::::::
-
-::::::::::::::
-
-::::::::::::::::
-
-:::::::::::::::::
-
-::::::::::::::
-
-::::::::::::::::
-
-:::::::::::::::::
-::::::::::::::
-::::::::::::::::
-:::::::::::::::::
