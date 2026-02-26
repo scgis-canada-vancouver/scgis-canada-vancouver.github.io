@@ -7,22 +7,26 @@ format:
 ---
 
 ::::: {.column-screen .blue-section style="background-color:#253351;"}
-:::: {.column-screen-inset}
+:::: column-screen-inset
 ::: {style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;"}
 Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
 
-Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>. SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in the GIS conservation community.
+Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
+
+SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in the GIS conservation community.
+
+![](images/paste-1.jpeg){width="200"}
 :::
 ::::
 :::::
 
-::::: {.column-screen style="background-color:#ffffff;"}
-:::: {.column-screen-inset}
+::::::::::::::::: {.column-screen style="background-color:#ffffff;"}
+:::::::::::::::: column-screen-inset
 ::: {.home-column-image .col-left}
 <a href="about.html"></a>
 :::
 
-::: {.home-column-text .col-right}
+:::::::::::::: {.home-column-text .col-right}
 <center>
 
 <h1 class="heading-home" style="color: #152F55;">
@@ -38,8 +42,6 @@ This group aims to bring together the community of conservation-related Geograph
 
 </p>
 :::
-
-
 
 ::: {style="max-width: 650px; margin: 0 auto;padding:1.5rem 0"}
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -124,27 +126,28 @@ leaflet(members.vect) %>%
 
 
 ```
-
 :::
 
-
-
-::::: {.column-screen .full-bleed-blue style="background-color:#253351;"}
-:::: {.column-screen-inset}
+::::::: {.column-screen .full-bleed-blue style="background-color:#253351;"}
+:::::: column-screen-inset
 ::: {.home-column-image .col-left}
 <a href="events.html#upcoming-events"></a>
 :::
 
-::: {.home-column-text .col-right}
+:::: {.home-column-text .col-right}
 <center>
 
 <h1 class="heading-home" style="color: #ffffff;">
+
 Events
+
 </h1>
 
 ::: {style="max-width: 650px; margin: 0 auto;"}
 <p style="color:#ffffff; font-style: italic;">
+
 SCGIS Vancouver hosts a variety of events, including talks from conservation and GIS specialists and groups, hands-on workshops, outdoor citizen science, and social mixers. Check out past and upcoming events here! Be sure to sign up for our mailing list (above) and follow us on social media for updates.
+
 </p>
 :::
 
@@ -217,23 +220,27 @@ tags$div(class = "category-row",
 )
 ```
 
-
 <br>
 
 </center>
-:::
-:::: 
-:::::
+::::
+::::::
+:::::::
 
-::::: {.column-screen style="background-color:#ffffff;"}
-:::: {.column-screen-inset}
+:::::: {.column-screen style="background-color:#ffffff;"}
+::::: column-screen-inset
 ::: {.home-column-image .col-left}
 <a href="https://scgisvancouver.org/resources.html"></a>
 :::
 
 ::: {.home-column-text .col-right}
+<center>
 
-<center> <h1 class="heading-home" style="color: #152F55;"> Resources </h1>
+<h1 class="heading-home" style="color: #152F55;">
+
+Resources
+
+</h1>
 
 [Curated data portals, hubs, and papers related to conservation GIS in Vancouver, BC]{style="color: #152F55; font-style: italic"}
 
@@ -291,8 +298,28 @@ tags$div(class = "category-row",
   )
 ```
 
-</center> 
-
+</center>
 :::
+:::::
+::::::
 
+::::::::::::::
 
+::::::::::::::::
+
+:::::::::::::::::
+
+::::::::::::::
+
+::::::::::::::::
+
+:::::::::::::::::
+
+::::::::::::::
+
+::::::::::::::::
+
+:::::::::::::::::
+::::::::::::::
+::::::::::::::::
+:::::::::::::::::
