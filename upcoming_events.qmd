@@ -4,23 +4,32 @@ title-block-banner: "img/home/yvr_dsm_eastvan.png"
 page-layout: full
 ---
 
-<div class="centered-page-content">
-
+::: centered-page-content
 ## Upcoming Events {#upcoming-events}
-    
--   **December 2, 2025** - Free SCGIS Webinar:\
-    Advancing Conservation and Community Resilience with Thermal and Hyperspectral Remote Sensing:     Applications from NASA’s ECOSTRESS and EMIT Missions\
-    This upcoming webinar will first highlight the use of ECOSTRESS data for urban heat analysis and   mitigation. It will then introduce conservation-related applications of EMIT data, including habitat as well as plant trait and diversity mapping. Finally, the last presentation will explore a combined use of both EMIT and ECOSTRESS data for assessing pre-wildfire risk in Los Angeles, California.
-    <https://us06web.zoom.us/webinar/register/WN_P-WgfwuYQButrB-Cdjgm0Q#/registration>
 
-    
--   **January, 2026** - SCGIS Vancouver Meeting\
-    We are currently planning the first meeting for SCGIS Vancouver members. This will consist of a workshop followed by a more general meeting of thechapter.
-    
-    In this first workshop we will generate and gather spatial layers from local open data portals and set them up into a cloud ready map database powered by open source QGIS and QField[Cloud] in a conservation setting, with a case study in a local Vancouver park!
+-   **Thursday, February 12th, 2026** - Vancouver Chapter Inaugural Event\
+    We're kicking off the Vancouver chapter with a talk and mixer event!\
+    \
+    Join us for an afternoon of conversation, idea-sharing, and networking with folks who are passionate about conservation and spatial thinking. We're excited to welcome guest speaker **Pano Skrivanos**, founder of [Overstory Mapping & Research](https://www.overstorymapping.ca/), who will share insights on the current landscape of conservation GIS including its strengths, limitations, and where the field is headed.\
+    \
+    We'll also be hosting a collaborative brainstorming session focused on what you want to see: What skills do you want to learn? Who do you want to hear from? What conversations should this chapter be leading?\
+    \
+    This event is free open to conservation GIS enthusiasts from all sectors and experience levels.\
+    **Chapter Discussion & Guest Speaker**\
+    3:30–4:30 PM\
+    UBC GSS Loft, 6133 University Blvd\
+    \
+    **Social Mixer**\
+    4:30–6:00 PM\
+    Koerner's Pub, 1758 West Mall
+
+    ![](img/events/feb_2026_event.png)
+
+-   **April, 2026** - SCGIS Vancouver Workshop\
+    We are currently planning workshop hosted by SCGIS Vancouver. In this workshop we will generate and gather spatial layers from local open data portals and set them up into a cloud ready map database powered by open source QGIS and QField\[Cloud\] in a conservation setting, with a case study in a local Vancouver park!
 
     These maps can be synced between field users on mobile (collecting the data) and desktop to provide real time updates on both ends.
-    
+
     Exact date and details to follow!
 
     ![](img/events/qfieldworkshoppromo.png)
@@ -30,6 +39,4 @@ page-layout: full
     ![](images/clipboard-1537866183.png)\
     Stay tuned for more information!\
     <https://www.scgis.org/conference>
-
-
-</div>
+:::
