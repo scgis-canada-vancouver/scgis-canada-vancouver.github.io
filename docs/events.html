@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Resources – SCGIS Vancouver</title>
+<title>Events – SCGIS Vancouver</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./img/home/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -69,14 +71,100 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-upcoming-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-upcoming-listing'] = new List('listing-upcoming-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-past-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-past-listing'] = new List('listing-past-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(img/home/yvr_dsm_wide.png);
+        background-image: url(img/home/yvr_dsm_eastvan.png);
 background-size: cover;
       }
 </style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -126,7 +214,7 @@ background-size: cover;
 <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events.html"> 
+    <a class="nav-link active" href="./events.html" aria-current="page"> 
 <span class="menu-text">Events</span></a>
   </li>  
 </ul>
@@ -147,7 +235,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">Resources</h1>
+      <h1 class="title">Events</h1>
                       </div>
   </div>
     
@@ -173,24 +261,183 @@ background-size: cover;
 
 
 
-<section id="conservation-environmental-data-hubs" class="level2 centered-page-content">
-<h2 class="anchored" data-anchor-id="conservation-environmental-data-hubs">Conservation &amp; Environmental Data Hubs</h2>
-<p>These resources are more specialized, focusing specifically on biodiversity, ecosystems, and natural resource management in British Columbia, Canada.</p>
-<ul>
-<li><a href="https://www2.gov.bc.ca/gov/content/environment/plants-animals-ecosystems/conservation-data-centre"><strong>BC Conservation Data Centre (CDC)</strong></a>
-<ul>
-<li>Information on species and ecosystems at risk in B.C.</li>
-</ul></li>
-<li><a href="https://www2.gov.bc.ca/gov/content/data/geographic-data-services/web-based-mapping/imapbc"><strong>iMapBC</strong></a>
-<ul>
-<li>An interactive web-mapping application from the B.C. government that provides access to hundreds of integrated datasets.</li>
-</ul></li>
-<li><a href="https://cmnmaps.ca/"><strong>Community Mapping Network (CMN)</strong></a>
-<ul>
-<li>A network that supports community-based mapping and data collection.</li>
-</ul></li>
-</ul>
+<div class="centered-page-content">
+<p>SCGIS Vancouver hosts talks from conservation and GIS specialists, hands-on workshops, map competitions, and social mixers.</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Maps for Conservation:</strong> Enter our GIS Day map competition by Wednesday, November 11, 2026. <a href="./events/2026-11-maps-for-conservation.html">Rules and submission details</a></p>
+<p><strong>Mailing List:</strong> <a href="./mailing_list.html">Sign up</a> to hear about new events.</p>
+</div>
+</div>
+</div>
+<section id="upcoming-events" class="level2">
+<h2 class="anchored" data-anchor-id="upcoming-events">Upcoming Events</h2>
+<div id="listing-upcoming-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1794384000000" data-listing-file-modified-sort="1790187023066" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="816">
+<a href="./events/2026-11-maps-for-conservation.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/events/maps_for_conservation_2026.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Maps for Conservation
+</h5>
+<div class="card-subtitle listing-subtitle">
+GIS Day Map Competition · Submissions due Wednesday, November 11, 2026
+</div>
+<div class="card-text listing-description delink">
+<p>Our inaugural map competition. Create a map that explores, communicates, or celebrates a conservation theme.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1794988800000" data-listing-file-modified-sort="1790186881868" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+<a href="./events/2026-11-gis-day.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="img/home/scgis_logo.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GIS Day 2026
+</h5>
+<div class="card-subtitle listing-subtitle">
+Wednesday, November 18, 2026
+</div>
+<div class="card-text listing-description delink">
+<p>SCGIS Vancouver will be at GIS Day 2026, where we will announce the winners of our Maps for Conservation competition.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1801468800000" data-listing-file-modified-sort="1790186881880" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
+<a href="./events/2027-02-state-of-conservation-gis.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="img/home/scgis_logo.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+State of Conservation GIS Catch-up
+</h5>
+<div class="card-subtitle listing-subtitle">
+February 2027
+</div>
+<div class="card-text listing-description delink">
+<p>Our annual meet up bringing together presenters from the conservation GIS realm, with presentations from our map contest winners.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1806562800000" data-listing-file-modified-sort="1790186881893" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="81">
+<a href="./events/2027-spring-qfield-workshop.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/events/qfieldworkshoppromo.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SCGIS Vancouver Workshop: QGIS and QField in Conservation
+</h5>
+<div class="card-subtitle listing-subtitle">
+Spring 2027
+</div>
+<div class="card-text listing-description delink">
+<p>A hands-on workshop building a cloud-ready conservation map database with QGIS and QField[Cloud], with a case study in a local Vancouver park.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
 </section>
+<section id="past-events" class="level2">
+<h2 class="anchored" data-anchor-id="past-events">Past Events</h2>
+<div id="listing-past-listing" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-2">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1783407600000" data-listing-file-modified-sort="1790190353121" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<a href="./events/2026-07-scgis-annual-conference.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/events/scgis_conference_2026.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+SCGIS Annual Conference
+</h5>
+<div class="card-subtitle listing-subtitle">
+July 7–10, 2026 · Estes Park Center, Rocky Mountain National Park, CO, USA
+</div>
+<div class="card-text listing-description delink">
+<p>The Society for Conservation GIS annual conference.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-date-sort="1770883200000" data-listing-file-modified-sort="1790186881923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+<a href="./events/2026-02-inaugural-event.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/events/feb_2026_event.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vancouver Chapter Inaugural Event
+</h5>
+<div class="card-subtitle listing-subtitle">
+Thursday, February 12, 2026 · UBC GSS Loft and Koerner’s Pub
+</div>
+<div class="card-text listing-description delink">
+<p>We kicked off the Vancouver chapter with a talk from Pano Skrivanos (Overstory Mapping &amp; Research) and a social mixer.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-date-sort="1764662400000" data-listing-file-modified-sort="1790186881936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="76">
+<a href="./events/2025-12-ecostress-emit-webinar.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="img/home/scgis_logo.png" style="height: 220px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Free SCGIS Webinar: Thermal and Hyperspectral Remote Sensing
+</h5>
+<div class="card-subtitle listing-subtitle">
+December 2, 2025 · Online
+</div>
+<div class="card-text listing-description delink">
+<p>Advancing Conservation and Community Resilience with Thermal and Hyperspectral Remote Sensing: Applications from NASA’s ECOSTRESS and EMIT Missions.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-date-sort="1763539200000" data-listing-file-modified-sort="1790186881950" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<a href="./events/2025-11-gis-day.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./img/events/gisday2025.png" class="thumbnail-image card-img" style="height: 220px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+GIS Day 2025
+</h5>
+<div class="card-subtitle listing-subtitle">
+November 19, 2025 · IKB Library, University of British Columbia, BC, CA
+</div>
+<div class="card-text listing-description delink">
+<p>An annual worldwide celebration of GIS technology and community, promoting geospatial literacy, education, and awareness.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+</div>
+
 
 
 

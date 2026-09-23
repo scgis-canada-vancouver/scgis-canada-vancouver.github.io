@@ -1,0 +1,20 @@
+---
+title: "SCGIS Vancouver Workshop: QGIS and QField in Conservation"
+subtitle: "Spring 2027"
+description: "A hands-on workshop building a cloud-ready conservation map database with QGIS and QField[Cloud], with a case study in a local Vancouver park."
+date: 2027-04-01
+status: upcoming
+image: ../img/events/qfieldworkshoppromo.png
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+We are currently planning a workshop hosted by SCGIS Vancouver. In this workshop we will generate and gather spatial layers from local open data portals and set them up into a cloud-ready map database powered by open source QGIS and QField\[Cloud\] in a conservation setting, with a case study in a local Vancouver park!
+
+These maps can be synced between field users on mobile (collecting the data) and desktop to provide real-time updates on both ends.
+
+Exact date and details to follow!
+
+![](../img/events/qfieldworkshoppromo.png)
+:::

@@ -26,14 +26,6 @@ output file: about.knit.md
 output file: index.knit.md
 
 
-[
-WARNING] Div at line 122 column 1 unclosed at line 231 column 1, closing implicitly.
-[WARNING] Div at line 121 column 1 unclosed at line 231 column 1, closing implicitly.
-[WARNING] Div at line 19 column 1 unclosed at line 231 column 
-1, closing implicitly.
-[WARNING] Div at line 14 column 1 unclosed at line 231 column 1, closing implicitly.
-[WARNING] Div at line 13 column 1 unclosed at line 231 column 1, closing implicitly.
-
 
 
 Output created: docs\index.html

@@ -1,0 +1,15 @@
+---
+title: "State of Conservation GIS Catch-up"
+subtitle: "February 2027"
+description: "Our annual meet up bringing together presenters from the conservation GIS realm, with presentations from our map contest winners."
+date: 2027-02-01
+status: upcoming
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+Stay tuned for our annual meet up where we will bring together several presenters from the conservation GIS realm. We will also have time for presentations from the winners of our [Maps for Conservation](2026-11-maps-for-conservation.qmd) competition.
+
+Exact date and details to follow!
+:::

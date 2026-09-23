@@ -1,0 +1,30 @@
+---
+title: "Vancouver Chapter Inaugural Event"
+subtitle: "Thursday, February 12, 2026 · UBC GSS Loft and Koerner's Pub"
+description: "We kicked off the Vancouver chapter with a talk from Pano Skrivanos (Overstory Mapping & Research) and a social mixer."
+date: 2026-02-12
+status: past
+image: ../img/events/feb_2026_event.png
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+We're kicking off the Vancouver chapter with a talk and mixer event!
+
+Join us for an afternoon of conversation, idea-sharing, and networking with folks who are passionate about conservation and spatial thinking. We're excited to welcome guest speaker **Pano Skrivanos**, founder of [Overstory Mapping & Research](https://www.overstorymapping.ca/), who will share insights on the current landscape of conservation GIS including its strengths, limitations, and where the field is headed.
+
+We'll also be hosting a collaborative brainstorming session focused on what you want to see: What skills do you want to learn? Who do you want to hear from? What conversations should this chapter be leading?
+
+This event is free and open to conservation GIS enthusiasts from all sectors and experience levels.
+
+**Chapter Discussion & Guest Speaker**\
+3:30–4:30 PM\
+UBC GSS Loft, 6133 University Blvd
+
+**Social Mixer**\
+4:30–6:00 PM\
+Koerner's Pub, 1758 West Mall
+
+![](../img/events/feb_2026_event.png)
+:::

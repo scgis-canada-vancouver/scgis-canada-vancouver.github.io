@@ -1,0 +1,49 @@
+---
+title: "Events"
+title-block-banner: "img/home/yvr_dsm_eastvan.png"
+page-layout: full
+aliases:
+  - upcoming_events.html
+  - past_events.html
+listing:
+  - id: upcoming-listing
+    contents: events/*.qmd
+    include:
+      status: upcoming
+    sort: "date"
+    type: grid
+    grid-columns: 2
+    image-height: 220px
+    image-placeholder: img/home/scgis_logo.png
+    fields: [image, title, subtitle, description]
+  - id: past-listing
+    contents: events/*.qmd
+    include:
+      status: past
+    sort: "date desc"
+    type: grid
+    grid-columns: 2
+    image-height: 220px
+    image-placeholder: img/home/scgis_logo.png
+    fields: [image, title, subtitle, description]
+---
+
+::: centered-page-content
+SCGIS Vancouver hosts talks from conservation and GIS specialists, hands-on workshops, map competitions, and social mixers.
+
+::: {.callout-note appearance="simple" icon="false"}
+**Maps for Conservation:** Enter our GIS Day map competition by Wednesday, November 11, 2026. [Rules and submission details](events/2026-11-maps-for-conservation.qmd)
+
+**Mailing List:** [Sign up](mailing_list.qmd) to hear about new events.
+:::
+
+## Upcoming Events {#upcoming-events}
+
+::: {#upcoming-listing}
+:::
+
+## Past Events {#past-events}
+
+::: {#past-listing}
+:::
+:::

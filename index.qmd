@@ -9,13 +9,12 @@ format:
 ::::: {.column-screen .blue-section style="background-color:#253351;"}
 :::: column-screen-inset
 ::: {style="max-width: 650px; margin: 0 auto; color:white; padding:1.5rem 0; text-align:center;"}
-Welcome to the homepage for the newly formed (*est.* November 2025) **Vancouver, BC Chapter of the Society for Conservation GIS**.
-
+Welcome to the homepage for the **Vancouver, BC Chapter of the Society for Conservation GIS** (*est.* November 2025).
 Our chapter is an affiliated chapter of the <a href="https://www.scgis.org/" style="color:#cce8ff; text-decoration:underline;">Society for Conservation GIS (SCGIS)</a>.
 
 SCGIS helps bring together conservation practitioners and GIS technology by supporting communication and networking, scholarships, and training across the world through a system of connected <a href="https://www.scgis.org/chapters" style="color:#cce8ff; text-decoration:underline;">chapters</a> in various cities and countries. Membership is open to anyone looking to engage in the GIS conservation community.
 
-![](images/paste-1.jpeg){width="200"}
+![](img/home/scgis_vancouver_logo.jpg){width="200"}
 :::
 ::::
 :::::
@@ -128,6 +127,11 @@ leaflet(members.vect) %>%
 ```
 :::
 
+</center>
+::::::::::::::
+::::::::::::::::
+:::::::::::::::::
+
 ::::::: {.column-screen .full-bleed-blue style="background-color:#253351;"}
 :::::: column-screen-inset
 ::: {.home-column-image .col-left}
@@ -162,9 +166,9 @@ tags$div(class = "category-row",
   tags$div(
     class = "category-column",
     tags$a(
-      href = "past_events.html",
+      href = "events.html#past-events",
       tags$img(
-        src = "images/vectors/history_white.svg",
+        src = "img/vectors/history_white.svg",
         class = "category-image"
       )
     ),
@@ -172,7 +176,7 @@ tags$div(class = "category-row",
       style = "text-align:center;",
       tags$a(
         class = "category-link-white",
-        href = "past_events.html",
+        href = "events.html#past-events",
         "Past Events"
       )
     )
@@ -182,9 +186,9 @@ tags$div(class = "category-row",
   tags$div(
     class = "category-column",
     tags$a(
-      href = "upcoming_events.html",
+      href = "events.html#upcoming-events",
       tags$img(
-        src = "images/vectors/event_white.svg",
+        src = "img/vectors/event_white.svg",
         class = "category-image"
       )
     ),
@@ -192,7 +196,7 @@ tags$div(class = "category-row",
       style = "text-align:center;",
       tags$a(
         class = "category-link-white",
-        href = "upcoming_events.html",
+        href = "events.html#upcoming-events",
         "Upcoming Events"
       )
     )
@@ -204,7 +208,7 @@ tags$div(class = "category-row",
     tags$a(
       href = "mailing_list.html",
       tags$img(
-        src = "images/vectors/mail_list_white.svg",
+        src = "img/vectors/mail_list_white.svg",
         class = "category-image"
       )
     ),
@@ -230,7 +234,7 @@ tags$div(class = "category-row",
 :::::: {.column-screen style="background-color:#ffffff;"}
 ::::: column-screen-inset
 ::: {.home-column-image .col-left}
-<a href="https://scgisvancouver.org/resources.html"></a>
+<a href="data_portals.html"></a>
 :::
 
 ::: {.home-column-text .col-right}
@@ -257,48 +261,44 @@ tags$div(class = "category-row",
     class = "category-column",
     tags$a(href = "data_portals.html",
       tags$img(
-        href = "data_portals.html",
-        src = "images/vectors/data_blue.svg",
+        src = "img/vectors/data_blue.svg",
         class = "category-image-blue"
 
   )),
   tags$h4(style = "text-align:center;",
       tags$a(
         class = "category-link-blue",
-        href = "https://scgisvancouver.org/data_portals.html", "Data Portals"))),
+        href = "data_portals.html", "Data Portals"))),
   
   tags$div( 
     class = "category-column",
     tags$a(href = "cons_env_hubs.html",
       tags$img(
-        href = "cons_env_hubs.html",
-        src = "images/vectors/hub_blue.svg",
+        src = "img/vectors/hub_blue.svg",
         class = "category-image-blue"
   )),
   tags$h4(style = "text-align:center",
       tags$a(
         class = "category-link-blue",
-        href = "https://scgisvancouver.org/cons_env_hubs.html", "Conservation Hubs"))),
+        href = "cons_env_hubs.html", "Conservation Hubs"))),
   
   tags$div( 
     class = "category-column",
     tags$a(href = "publications_news.html",
       tags$img(
-        href = "publications_news.html",
-        src = "images/vectors/publication_blue.svg",
+        src = "img/vectors/publication_blue.svg",
         class = "category-image-blue"
   )),
   tags$h4(style = "text-align:center",
       tags$a(
         class = "category-link-blue",
-        href = "https://scgisvancouver.org/publications_news.html", "Publications & News")))
+        href = "publications_news.html", "Publications & News")))
   
   
   
   )
 ```
 
-</center>
 :::
 :::::
 ::::::
