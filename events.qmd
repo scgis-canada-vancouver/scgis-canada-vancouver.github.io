@@ -32,9 +32,7 @@ listing:
 SCGIS Vancouver hosts talks from conservation and GIS specialists, hands-on workshops, map competitions, and social mixers.
 
 ::: {.callout-note appearance="simple" icon="false"}
-**Maps for Conservation:** Enter our GIS Day map competition by Wednesday, November 11, 2026. [Rules and submission details](events/2026-11-maps-for-conservation.qmd)
-
-**Mailing List:** [Sign up](mailing_list.qmd) to hear about new events.
+**Mailing List:** [Sign up](mailing_list.qmd) to get notified about new events.
 :::
 
 ## Upcoming Events {#upcoming-events}
