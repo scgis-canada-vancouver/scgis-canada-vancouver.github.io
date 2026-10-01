@@ -4,13 +4,13 @@ subtitle: "GIS Day Map Competition · Submissions due Wednesday, November 11, 20
 description: "Our inaugural map competition. Create a map that explores, communicates, or celebrates a conservation theme."
 date: 2026-11-11
 status: upcoming
-image: ../img/events/maps_for_conservation_2026.png
+image: ../img/events/GIS_DAY_Banner.png
 title-block-banner: "../img/home/yvr_dsm_eastvan.png"
 page-layout: full
 ---
 
 ::: centered-page-content
-![](../img/events/maps_for_conservation_2026.png){fig-align="center" width="420"}
+![](../img/events/GIS_DAY_Banner.png){fig-align="center" width="420"}
 
 In celebration of International GIS Day (November 18), the Vancouver Chapter of the Society for Conservation GIS (SCGIS) invites mapmakers of all backgrounds and experience levels to participate in our inaugural "Maps for Conservation" competition.
 
