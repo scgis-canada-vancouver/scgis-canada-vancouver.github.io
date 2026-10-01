@@ -1,0 +1,17 @@
+---
+title: "Free SCGIS Webinar: Thermal and Hyperspectral Remote Sensing"
+subtitle: "December 2, 2025 · Online"
+description: "Advancing Conservation and Community Resilience with Thermal and Hyperspectral Remote Sensing: Applications from NASA's ECOSTRESS and EMIT Missions."
+date: 2025-12-02
+status: past
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+**Advancing Conservation and Community Resilience with Thermal and Hyperspectral Remote Sensing: Applications from NASA's ECOSTRESS and EMIT Missions**
+
+This webinar will first highlight the use of ECOSTRESS data for urban heat analysis and mitigation. It will then introduce conservation-related applications of EMIT data, including habitat as well as plant trait and diversity mapping. Finally, the last presentation will explore a combined use of both EMIT and ECOSTRESS data for assessing pre-wildfire risk in Los Angeles, California.
+
+<https://us06web.zoom.us/webinar/register/WN_P-WgfwuYQButrB-Cdjgm0Q#/registration>
+:::

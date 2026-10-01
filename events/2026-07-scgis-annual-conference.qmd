@@ -1,0 +1,18 @@
+---
+title: "SCGIS Annual Conference"
+subtitle: "July 7–10, 2026 · Estes Park Center, Rocky Mountain National Park, CO, USA"
+description: "The Society for Conservation GIS annual conference."
+date: 2026-07-07
+status: past
+image: ../img/events/scgis_conference_2026.png
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+Estes Park Center, Rocky Mountain National Park, CO, USA
+
+![](../img/events/scgis_conference_2026.png)
+
+<https://www.scgis.org/conference>
+:::

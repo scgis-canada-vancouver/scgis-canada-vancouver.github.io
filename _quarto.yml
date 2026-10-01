@@ -2,7 +2,7 @@ project:
   type: website
   output-dir: docs
   resources:
-    - CNAME.txt
+    - CNAME
 
 lang: en
 
@@ -14,7 +14,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Sign up for our [mailing list](mailing_list.html) today!"
+    content: "Enter our **Maps for Conservation** GIS Day map competition! Submissions are due Wednesday, November 11. [Learn more](/events/2026-11-maps-for-conservation.qmd)"
     type: primary
     position: below-navbar
   navbar:
@@ -32,21 +32,15 @@ website:
         - href: publications_news.qmd
           text: "Publications & News"
       - about.qmd
-      - text: "Events"
-        menu:
-        - href: upcoming_events.qmd
-          text: "Upcoming Events"
-        - href: past_events.qmd
-          text: "Past Events"
-        - href: mailing_list.qmd
-          text: "Mailing List"
+      - href: events.qmd
+        text: "Events"
     tools:
       - icon: envelope
         href: mailto:scgis.canada.vancouver@gmail.com
         text: "Email the chapter representatives"
       - icon: instagram
         href: https://instagram.com/scgis.vancouver
-        text: "Follow us on Instgram"
+        text: "Follow us on Instagram"
       - icon: github
         href: https://github.com/scgis-canada-vancouver
         text: "Follow our Github organization"

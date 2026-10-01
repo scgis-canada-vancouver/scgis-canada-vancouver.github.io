@@ -544,3 +544,13 @@ main.content > .column-margin:first-of-type {
   margin: 0 1.2rem 1rem 0;   /* space between photo and text */
   border: 3px solid #FFFFFF; /* optional */
 }
+
+/* Events: hide listing sort date on event pages, keep posters uncropped in cards */
+.quarto-title-meta {
+  display: none;
+}
+
+.quarto-listing .card-img-top {
+  object-fit: contain;
+  background-color: #ffffff;
+}

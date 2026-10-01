@@ -1,0 +1,17 @@
+---
+title: "GIS Day 2026"
+subtitle: "Wednesday, November 18, 2026"
+description: "SCGIS Vancouver will be at GIS Day 2026, where we will announce the winners of our Maps for Conservation competition."
+date: 2026-11-18
+status: upcoming
+title-block-banner: "../img/home/yvr_dsm_eastvan.png"
+page-layout: full
+---
+
+::: centered-page-content
+SCGIS Vancouver will be attending GIS Day 2026, where we will announce the winners of our [Maps for Conservation](2026-11-maps-for-conservation.qmd) competition.
+
+GIS Day is an annual worldwide celebration of Geographic Information Systems (GIS) technology and community, dedicated to promoting geospatial literacy, education, and awareness.
+
+Exact location and details to follow!
+:::
