@@ -84,16 +84,15 @@ leaflet(members.vect) %>%
   # --- Add watermark AND edge markers in a single onRender() ---
   htmlwidgets::onRender("
     function(el, x) {
-      // --- Watermark control ---
+      var map = this;
+
+      // SCGIS watermark
       L.Control.Watermark = L.Control.extend({
         onAdd: function(map) {
           var img = L.DomUtil.create('img');
-          img.src = 'img/home/scgis_logo.png';   // adjust path as needed
+          img.src = 'img/home/scgis_logo.png';
           img.style.width = '100px';
           return img;
-        },
-        onRemove: function(map) {
-          // nothing to do
         }
       });
 
@@ -101,23 +100,38 @@ leaflet(members.vect) %>%
         return new L.Control.Watermark(opts);
       };
 
-      L.control.watermark({ position: 'bottomleft' }).addTo(this);
+      L.control.watermark({
+        position: 'bottomleft'
+      }).addTo(map);
 
-      // --- EdgeMarker plugin ---
-      if (L.edgeMarker) {
-        var edgeMarkerLayer = L.edgeMarker({
-          icon: L.icon({
-            iconUrl: 'img/home/arrow.png',
-            clickable: true,
-            iconSize: [48, 48],
-            iconAnchor: [24, 24]
+      // Initialize EdgeMarker
+      function initializeEdgeMarker() {
+        if (!L.edgeMarker) {
+          console.error('EdgeMarker plugin unavailable');
+          return;
+        }
+
+        L.edgeMarker({
+          icon: L.divIcon({
+            html: '<div style=\"font-size:32px;color:#243B60;line-height:40px;text-align:center;transform:rotate(180deg);\">➤</div>',
+            className: '',
+            iconSize: [40, 40],
+            iconAnchor: [20, 20]
           }),
           rotateIcons: true,
-          layerGroup: null // null = look at all markers / circles on the map
-        }).addTo(this);
-      } else {
-        console.error('Leaflet.EdgeMarker plugin was not loaded correctly.');
+          layerGroup: null
+        }).addTo(map);
       }
+
+      // Load EdgeMarker JavaScript
+      var script = document.createElement('script');
+      script.src = 'https://cdn.jsdelivr.net/gh/ubergesundheit/Leaflet.EdgeMarker/Leaflet.EdgeMarker.js';
+      script.onload = initializeEdgeMarker;
+      script.onerror = function() {
+        console.error('Failed to load EdgeMarker');
+      };
+
+      document.head.appendChild(script);
     }
   ") %>%
   setView(-123.1007, 49.2527, 11)
