@@ -14,7 +14,7 @@ Join us on **November 20** for UBC GIS Day 2026, co-hosted by the SCGIS Vancouve
 
 **Date & Time:** Nov 20, 2026 - 9:30 to 15:30
 
-**Location:** Dodson Room (302) in the Irving K. Barver LearninStart-Process "D:\github\scgis-canada-vancouver.github.io\docs\events\\2026-11-gis-day.html"g Centre, 1961 East Mall, Vancouver
+**Location:** Dodson Room (302) in the Irving K. Barver Learning Centre, 1961 East Mall, Vancouver
 
 This event brings together UBC faculty, staff, students, and SCGIS members to share their ongoing research, projects, and applications of Geographic Information Systems (GIS). Whether you're presenting your work or simply interested in learning about the geospatial community, everyone is welcome to attend, connect, and exchange ideas.
 
