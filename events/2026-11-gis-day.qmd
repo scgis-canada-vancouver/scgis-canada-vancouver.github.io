@@ -4,7 +4,7 @@ subtitle: "Friday, November 20, 2026"
 description: "SCGIS Vancouver will be at GIS Day 2026, where we will announce the winners of our Maps for Conservation competition."
 date: 2026-11-20
 status: upcoming
-image: ../img/events/gis_day_2026.jpg
+image: ../img/events/GIS_DAY_2026_POSTER.jpg
 title-block-banner: "../img/home/gis_day_2026.jpg"
 page-layout: full
 ---
@@ -24,5 +24,5 @@ We will also be announcing the winner of the [Maps for Conservation](2026-11-map
 
 We look forward to seeing you there!
 
-![](images/GIS Day 2026 SOCIAL.jpg)
+![](/img/events/GIS_DAY_2026_POSTER.jpg)
 :::
