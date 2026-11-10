@@ -14,7 +14,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Enter our **Maps for Conservation** GIS Day map competition! Submissions are due Wednesday, November 11. [Learn more](/events/2026-11-maps-for-conservation.qmd)"
+    content: "Enter our **Maps for Conservation** GIS Day map competition! Submissions are due Friday, November 13. [Learn more](/events/2026-11-maps-for-conservation.qmd)"
     type: primary
     position: below-navbar
   navbar:

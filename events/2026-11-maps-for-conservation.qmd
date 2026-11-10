@@ -1,6 +1,6 @@
 ---
 title: "Maps for Conservation"
-subtitle: "GIS Day Map Competition · Submissions due Wednesday, November 11, 2026"
+subtitle: "GIS Day Map Competition · Submissions due Friday, November 13, 2026"
 description: "Our inaugural map competition. Create a map that explores, communicates, or celebrates a conservation theme."
 date: 2026-11-11
 status: upcoming
@@ -18,7 +18,7 @@ The challenge is to create a compelling map that explores, communicates, or cele
 
 We welcome entries from students, professionals, researchers, GIS enthusiasts, and anyone interested in using maps to communicate conservation stories.
 
-**Deadline:** Wednesday, November 11, 2026\
+**Deadline:** Friday, November 13, 2026\
 **Winners announced:** [GIS Day](2026-11-gis-day.qmd), Wednesday, November 18, 2026
 
 ## Prizes {#prizes}
@@ -53,7 +53,7 @@ Judging will focus on the effectiveness of the final map as a conservation commu
 
 ## Submission {#submission}
 
-Email your entry to [scgis.canada.vancouver\@gmail.com](mailto:scgis.canada.vancouver@gmail.com?subject=Maps%20for%20Conservation%20submission) by **Wednesday, November 11, 2026**. Each submission should include:
+Email your entry to [scgis.canada.vancouver\@gmail.com](mailto:scgis.canada.vancouver@gmail.com?subject=Maps%20for%20Conservation%20submission) by **Friday, November 13, 2026**. Each submission should include:
 
 -   Your map as a high-resolution PDF (portrait or landscape).
 -   Your map description (150–200 words).
