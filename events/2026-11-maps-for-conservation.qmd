@@ -61,13 +61,5 @@ Email your entry to [scgis.canada.vancouver\@gmail.com](mailto:scgis.canada.vanc
 
 ## Gallery {#gallery}
 
-All submitted maps will be featured here as part of our living map gallery once the competition closes. Check back after GIS Day on November 18!
-
-<!-- Add entries after the competition closes, e.g.:
-::: {layout-ncol=2}
-![**Map title**, Mapmaker (Affiliation)](../img/events/maps_for_conservation/entry_01.png)
-
-![**Map title**, Mapmaker (Affiliation)](../img/events/maps_for_conservation/entry_02.png)
-:::
--->
+We received 13 submissions! [**View all of the maps in the Maps for Conservation Gallery →**](2026-11-maps-for-conservation-gallery.qmd)
 :::
