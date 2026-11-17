@@ -14,7 +14,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Enter our **Maps for Conservation** GIS Day map competition! Submissions are due Friday, November 13. [Learn more](/events/2026-11-maps-for-conservation.qmd)"
+    content: "Join us for the UBC GIS Day on Friday Nov 20! [Learn more](/events/2026-11-gis-day.qmd)"
     type: primary
     position: below-navbar
   navbar:

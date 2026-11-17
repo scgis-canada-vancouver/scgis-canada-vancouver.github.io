@@ -23,6 +23,6 @@ This event brings together UBC faculty, staff, students, and SCGIS members to sh
 We will also be announcing the winner of the [Maps for Conservation](2026-11-maps-for-conservation.qmd) competition during the event!
 
 We look forward to seeing you there!
-
-![](/img/events/GIS_DAY_2026_POSTER.jpg)
 :::
+
+![UBC GIS Day 2026 - Schedule](images/image (1).png)
