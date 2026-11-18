@@ -19,8 +19,8 @@ Select a map to jump to it, then click the image to view it full screen.
 ```{=html}
 <div class="map-grid">
   <a class="map-card" href="#map-01">
-    <img src="../img/events/maps_for_conservation/map-08-thumb.jpg" width="696" height="900" alt="Thumbnail: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik" loading="lazy">
-    <span class="map-card-body"><span class="map-card-author">Seni Isik</span><span class="map-card-title">Where Wildlife and Wildfire Risk Overlap in Kelowna, BC</span><span class="map-card-loc">Map Area: Kelowna, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-08-thumb.jpg" width="696" height="900" alt="Thumbnail: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Sena Isik" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Sena Isik</span><span class="map-card-title">Where Wildlife and Wildfire Risk Overlap in Kelowna, BC</span><span class="map-card-loc">Map Area: Kelowna, BC</span></span>
   </a>
   <a class="map-card" href="#map-02">
     <img src="../img/events/maps_for_conservation/map-12-thumb.jpg" width="900" height="637" alt="Thumbnail: Invasive Species at the Ecological Edge by Hengyin Liao" loading="lazy">
@@ -76,11 +76,11 @@ Select a map to jump to it, then click the image to view it full screen.
 ::: {#map-01 .map-entry}
 ## Where Wildlife and Wildfire Risk Overlap in Kelowna, BC {.unnumbered}
 
-[By Seni Isik · Map Area: Kelowna, BC]{.map-entry-meta}
+[By Sena Isik · Map Area: Kelowna, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-08.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik">
-  <img src="../img/events/maps_for_conservation/map-08-web.jpg" width="1237" height="1600" alt="Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-08.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Sena Isik">
+  <img src="../img/events/maps_for_conservation/map-08-web.jpg" width="1237" height="1600" alt="Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Sena Isik" loading="lazy">
 </a>
 ```
 
