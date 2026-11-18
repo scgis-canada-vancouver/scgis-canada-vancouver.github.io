@@ -609,11 +609,9 @@ main.content > .column-margin:first-of-type {
   padding: .75rem .9rem .9rem;
 }
 
-.map-card-num {
-  font-size: .75rem;
+.map-card-author {
+  font-size: .85rem;
   font-weight: 700;
-  letter-spacing: .05em;
-  text-transform: uppercase;
   color: #6c92de;
 }
 
@@ -642,10 +640,8 @@ main.content > .column-margin:first-of-type {
 
 .map-entry-meta {
   display: block;
-  font-size: .85rem;
+  font-size: 1rem;
   font-weight: 600;
-  letter-spacing: .04em;
-  text-transform: uppercase;
   color: #6c92de;
   margin-bottom: 1rem;
 }
@@ -674,4 +670,46 @@ main.content > .column-margin:first-of-type {
 
 .back-top {
   font-size: .9rem;
+}
+
+/* Gallery call-out on the competition page */
+.gallery-feature {
+  margin: 0 0 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #253351;
+  color: #fefeff;
+  text-align: center;
+}
+
+.gallery-feature h2 {
+  margin-top: 0;
+  color: #fefeff;
+  border-bottom: none;
+}
+
+.gallery-feature .map-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .6rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.gallery-feature .map-strip img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 576px) {
+  .gallery-feature .map-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-feature .btn {
+  font-weight: 600;
 }

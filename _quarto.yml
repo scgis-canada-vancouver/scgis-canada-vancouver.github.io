@@ -14,7 +14,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Join us for the UBC GIS Day on Friday Nov 20! [Learn more](/events/2026-11-gis-day.qmd)"
+    content: "The Maps for Conservation gallery is live! See all 13 submitted maps. [View the gallery](/events/2026-11-maps-for-conservation-gallery.qmd)"
     type: primary
     position: below-navbar
   navbar:

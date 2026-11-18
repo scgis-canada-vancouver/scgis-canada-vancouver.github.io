@@ -12,63 +12,63 @@ include-after-body:
 ---
 
 ::: map-gallery
-Thank you to everyone who entered the [Maps for Conservation](2026-11-maps-for-conservation.qmd) competition! We received 13 maps covering pollinators in Vancouver, sea ice in the Arctic, and much more. Every submission is shown below with the description its mapmaker wrote.
+Thank you to everyone who entered the [Maps for Conservation](2026-11-maps-for-conservation.qmd) competition! We received 13 maps covering pollinators in Vancouver, sea ice in the Arctic, and much more. Every submission is shown below alongside its mapmaker's description.
 
 Select a map to jump to it, then click the image to view it full screen.
 
 ```{=html}
 <div class="map-grid">
   <a class="map-card" href="#map-01">
-    <img src="../img/events/maps_for_conservation/map-08-thumb.jpg" width="696" height="900" alt="Thumbnail of map 1: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 1</span><span class="map-card-title">Where Wildlife and Wildfire Risk Overlap in Kelowna, BC</span><span class="map-card-loc">Kelowna, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-08-thumb.jpg" width="696" height="900" alt="Thumbnail: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Seni Isik</span><span class="map-card-title">Where Wildlife and Wildfire Risk Overlap in Kelowna, BC</span><span class="map-card-loc">Map Area: Kelowna, BC</span></span>
   </a>
   <a class="map-card" href="#map-02">
-    <img src="../img/events/maps_for_conservation/map-12-thumb.jpg" width="900" height="637" alt="Thumbnail of map 2: Invasive Species at the Ecological Edge" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 2</span><span class="map-card-title">Invasive Species at the Ecological Edge</span><span class="map-card-loc">Surrey, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-12-thumb.jpg" width="900" height="637" alt="Thumbnail: Invasive Species at the Ecological Edge by Hengyin Liao" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Hengyin Liao</span><span class="map-card-title">Invasive Species at the Ecological Edge</span><span class="map-card-loc">Map Area: Surrey, BC</span></span>
   </a>
   <a class="map-card" href="#map-03">
-    <img src="../img/events/maps_for_conservation/map-04-thumb.jpg" width="900" height="637" alt="Thumbnail of map 3: The Regreening of Greater Sudbury in Two Snapshots" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 3</span><span class="map-card-title">The Regreening of Greater Sudbury in Two Snapshots</span><span class="map-card-loc">Greater Sudbury, ON</span></span>
+    <img src="../img/events/maps_for_conservation/map-04-thumb.jpg" width="900" height="637" alt="Thumbnail: The Regreening of Greater Sudbury in Two Snapshots by Muhammad Jayadi" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Muhammad Jayadi</span><span class="map-card-title">The Regreening of Greater Sudbury in Two Snapshots</span><span class="map-card-loc">Map Area: Greater Sudbury, ON</span></span>
   </a>
   <a class="map-card" href="#map-04">
-    <img src="../img/events/maps_for_conservation/map-07-thumb.jpg" width="900" height="636" alt="Thumbnail of map 4: BC Wildfire Impact: Threatened Ungulate Winter Ranges" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 4</span><span class="map-card-title">BC Wildfire Impact: Threatened Ungulate Winter Ranges</span><span class="map-card-loc">British Columbia</span></span>
+    <img src="../img/events/maps_for_conservation/map-07-thumb.jpg" width="900" height="636" alt="Thumbnail: BC Wildfire Impact: Threatened Ungulate Winter Ranges by PinYun Chen" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">PinYun Chen</span><span class="map-card-title">BC Wildfire Impact: Threatened Ungulate Winter Ranges</span><span class="map-card-loc">Map Area: British Columbia</span></span>
   </a>
   <a class="map-card" href="#map-05">
-    <img src="../img/events/maps_for_conservation/map-11-thumb.jpg" width="852" height="900" alt="Thumbnail of map 5: I Brake for Moose" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 5</span><span class="map-card-title">I Brake for Moose</span><span class="map-card-loc">British Columbia</span></span>
+    <img src="../img/events/maps_for_conservation/map-11-thumb.jpg" width="852" height="900" alt="Thumbnail: I Brake for Moose by Leonard Hambrecht" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Leonard Hambrecht</span><span class="map-card-title">I Brake for Moose</span><span class="map-card-loc">Map Area: British Columbia</span></span>
   </a>
   <a class="map-card" href="#map-06">
-    <img src="../img/events/maps_for_conservation/map-09-thumb.jpg" width="900" height="453" alt="Thumbnail of map 6: Two Mining Pathways Across a Fragile Dryland Landscape" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 6</span><span class="map-card-title">Two Mining Pathways Across a Fragile Dryland Landscape</span><span class="map-card-loc">Mu Us Sandy Land, China</span></span>
+    <img src="../img/events/maps_for_conservation/map-09-thumb.jpg" width="900" height="453" alt="Thumbnail: Two Mining Pathways Across a Fragile Dryland Landscape by Yi Su" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Yi Su</span><span class="map-card-title">Two Mining Pathways Across a Fragile Dryland Landscape</span><span class="map-card-loc">Map Area: Mu Us Sandy Land, China</span></span>
   </a>
   <a class="map-card" href="#map-07">
-    <img src="../img/events/maps_for_conservation/map-02-thumb.jpg" width="900" height="636" alt="Thumbnail of map 7: Bumble Bee Occurrence and Green Space in Vancouver" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 7</span><span class="map-card-title">Bumble Bee Occurrence and Green Space in Vancouver</span><span class="map-card-loc">Vancouver, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-02-thumb.jpg" width="900" height="636" alt="Thumbnail: Bumble Bee Occurrence and Green Space in Vancouver by Hugh Zhao" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Hugh Zhao</span><span class="map-card-title">Bumble Bee Occurrence and Green Space in Vancouver</span><span class="map-card-loc">Map Area: Vancouver, BC</span></span>
   </a>
   <a class="map-card" href="#map-08">
-    <img src="../img/events/maps_for_conservation/map-05-thumb.jpg" width="900" height="696" alt="Thumbnail of map 8: Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 8</span><span class="map-card-title">Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context</span><span class="map-card-loc">Global</span></span>
+    <img src="../img/events/maps_for_conservation/map-05-thumb.jpg" width="900" height="696" alt="Thumbnail: Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context by Mark Rigor" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Mark Rigor</span><span class="map-card-title">Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context</span><span class="map-card-loc">Map Area: Global</span></span>
   </a>
   <a class="map-card" href="#map-09">
-    <img src="../img/events/maps_for_conservation/map-10-thumb.jpg" width="900" height="696" alt="Thumbnail of map 9: Not All Marmots Get the Same Summer!" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 9</span><span class="map-card-title">Not All Marmots Get the Same Summer!</span><span class="map-card-loc">Whistler, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-10-thumb.jpg" width="900" height="696" alt="Thumbnail: Not All Marmots Get the Same Summer! by John Brand" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">John Brand</span><span class="map-card-title">Not All Marmots Get the Same Summer!</span><span class="map-card-loc">Map Area: Whistler, BC</span></span>
   </a>
   <a class="map-card" href="#map-10">
-    <img src="../img/events/maps_for_conservation/map-13-thumb.jpg" width="900" height="637" alt="Thumbnail of map 10: Living Slopes" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 10</span><span class="map-card-title">Living Slopes</span><span class="map-card-loc">Central Java, Indonesia</span></span>
+    <img src="../img/events/maps_for_conservation/map-13-thumb.jpg" width="900" height="637" alt="Thumbnail: Living Slopes by Achmad Tijani" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Achmad Tijani</span><span class="map-card-title">Living Slopes</span><span class="map-card-loc">Map Area: Central Java, Indonesia</span></span>
   </a>
   <a class="map-card" href="#map-11">
-    <img src="../img/events/maps_for_conservation/map-01-thumb.jpg" width="900" height="636" alt="Thumbnail of map 11: Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 11</span><span class="map-card-title">Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations</span><span class="map-card-loc">Canadian Arctic</span></span>
+    <img src="../img/events/maps_for_conservation/map-01-thumb.jpg" width="900" height="636" alt="Thumbnail: Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations by Hieu Phung" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Hieu Phung</span><span class="map-card-title">Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations</span><span class="map-card-loc">Map Area: Canadian Arctic</span></span>
   </a>
   <a class="map-card" href="#map-12">
-    <img src="../img/events/maps_for_conservation/map-03-thumb.jpg" width="900" height="547" alt="Thumbnail of map 12: Average Age of Trees on Southwest Vancouver Island" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 12</span><span class="map-card-title">Average Age of Trees on Southwest Vancouver Island</span><span class="map-card-loc">Vancouver Island, BC</span></span>
+    <img src="../img/events/maps_for_conservation/map-03-thumb.jpg" width="900" height="547" alt="Thumbnail: Average Age of Trees on Southwest Vancouver Island by Nikita Wallia" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Nikita Wallia</span><span class="map-card-title">Average Age of Trees on Southwest Vancouver Island</span><span class="map-card-loc">Map Area: Vancouver Island, BC</span></span>
   </a>
   <a class="map-card" href="#map-13">
-    <img src="../img/events/maps_for_conservation/map-06-thumb.jpg" width="696" height="900" alt="Thumbnail of map 13: Land Use and Land Cover Dynamics in Chittagong District (2019–2024)" loading="lazy">
-    <span class="map-card-body"><span class="map-card-num">Map 13</span><span class="map-card-title">Land Use and Land Cover Dynamics in Chittagong District (2019–2024)</span><span class="map-card-loc">Chittagong, Bangladesh</span></span>
+    <img src="../img/events/maps_for_conservation/map-06-thumb.jpg" width="696" height="900" alt="Thumbnail: Land Use and Land Cover Dynamics in Chittagong District (2019–2024) by Shubodip Ghosh" loading="lazy">
+    <span class="map-card-body"><span class="map-card-author">Shubodip Ghosh</span><span class="map-card-title">Land Use and Land Cover Dynamics in Chittagong District (2019–2024)</span><span class="map-card-loc">Map Area: Chittagong, Bangladesh</span></span>
   </a>
 </div>
 ```
@@ -76,11 +76,11 @@ Select a map to jump to it, then click the image to view it full screen.
 ::: {#map-01 .map-entry}
 ## Where Wildlife and Wildfire Risk Overlap in Kelowna, BC {.unnumbered}
 
-[Map 1 · Kelowna, BC]{.map-entry-meta}
+[By Seni Isik · Map Area: Kelowna, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-08.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 1: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC">
-  <img src="../img/events/maps_for_conservation/map-08-web.jpg" width="1237" height="1600" alt="Map 1: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-08.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik">
+  <img src="../img/events/maps_for_conservation/map-08-web.jpg" width="1237" height="1600" alt="Where Wildlife and Wildfire Risk Overlap in Kelowna, BC by Seni Isik" loading="lazy">
 </a>
 ```
 
@@ -94,11 +94,11 @@ This map illustrates the intersection of wildlife conservation, wildfire hazards
 ::: {#map-02 .map-entry}
 ## Invasive Species at the Ecological Edge {.unnumbered}
 
-[Map 2 · Surrey, BC]{.map-entry-meta}
+[By Hengyin Liao · Map Area: Surrey, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-12.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 2: Invasive Species at the Ecological Edge">
-  <img src="../img/events/maps_for_conservation/map-12-web.jpg" width="1600" height="1132" alt="Map 2: Invasive Species at the Ecological Edge" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-12.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Invasive Species at the Ecological Edge by Hengyin Liao">
+  <img src="../img/events/maps_for_conservation/map-12-web.jpg" width="1600" height="1132" alt="Invasive Species at the Ecological Edge by Hengyin Liao" loading="lazy">
 </a>
 ```
 
@@ -116,11 +116,11 @@ The map is intended to make spatial conservation information accessible and illu
 ::: {#map-03 .map-entry}
 ## The Regreening of Greater Sudbury in Two Snapshots {.unnumbered}
 
-[Map 3 · Greater Sudbury, ON]{.map-entry-meta}
+[By Muhammad Jayadi · Map Area: Greater Sudbury, ON]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-04.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 3: The Regreening of Greater Sudbury in Two Snapshots">
-  <img src="../img/events/maps_for_conservation/map-04-web.jpg" width="1600" height="1132" alt="Map 3: The Regreening of Greater Sudbury in Two Snapshots" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-04.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: The Regreening of Greater Sudbury in Two Snapshots by Muhammad Jayadi">
+  <img src="../img/events/maps_for_conservation/map-04-web.jpg" width="1600" height="1132" alt="The Regreening of Greater Sudbury in Two Snapshots by Muhammad Jayadi" loading="lazy">
 </a>
 ```
 
@@ -138,11 +138,11 @@ Greater Sudbury's regreening has earned international recognition as an example 
 ::: {#map-04 .map-entry}
 ## BC Wildfire Impact: Threatened Ungulate Winter Ranges {.unnumbered}
 
-[Map 4 · British Columbia]{.map-entry-meta}
+[By PinYun Chen · Map Area: British Columbia]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-07.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 4: BC Wildfire Impact: Threatened Ungulate Winter Ranges">
-  <img src="../img/events/maps_for_conservation/map-07-web.jpg" width="1600" height="1131" alt="Map 4: BC Wildfire Impact: Threatened Ungulate Winter Ranges" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-07.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: BC Wildfire Impact: Threatened Ungulate Winter Ranges by PinYun Chen">
+  <img src="../img/events/maps_for_conservation/map-07-web.jpg" width="1600" height="1131" alt="BC Wildfire Impact: Threatened Ungulate Winter Ranges by PinYun Chen" loading="lazy">
 </a>
 ```
 
@@ -161,11 +161,11 @@ Greater Sudbury's regreening has earned international recognition as an example 
 ::: {#map-05 .map-entry}
 ## I Brake for Moose {.unnumbered}
 
-[Map 5 · British Columbia]{.map-entry-meta}
+[By Leonard Hambrecht · Map Area: British Columbia]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-11.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 5: I Brake for Moose">
-  <img src="../img/events/maps_for_conservation/map-11-web.jpg" width="1515" height="1600" alt="Map 5: I Brake for Moose" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-11.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: I Brake for Moose by Leonard Hambrecht">
+  <img src="../img/events/maps_for_conservation/map-11-web.jpg" width="1515" height="1600" alt="I Brake for Moose by Leonard Hambrecht" loading="lazy">
 </a>
 ```
 
@@ -187,11 +187,11 @@ About 5,000 dead animals are recorded on BC highways every year. Wildlife crossi
 ::: {#map-06 .map-entry}
 ## Two Mining Pathways Across a Fragile Dryland Landscape {.unnumbered}
 
-[Map 6 · Mu Us Sandy Land, China]{.map-entry-meta}
+[By Yi Su · Map Area: Mu Us Sandy Land, China]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-09.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 6: Two Mining Pathways Across a Fragile Dryland Landscape">
-  <img src="../img/events/maps_for_conservation/map-09-web.jpg" width="1153" height="580" alt="Map 6: Two Mining Pathways Across a Fragile Dryland Landscape" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-09.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Two Mining Pathways Across a Fragile Dryland Landscape by Yi Su">
+  <img src="../img/events/maps_for_conservation/map-09-web.jpg" width="1153" height="580" alt="Two Mining Pathways Across a Fragile Dryland Landscape by Yi Su" loading="lazy">
 </a>
 ```
 
@@ -209,11 +209,11 @@ These spatial contrasts have important implications for ecosystem conservation a
 ::: {#map-07 .map-entry}
 ## Bumble Bee Occurrence and Green Space in Vancouver {.unnumbered}
 
-[Map 7 · Vancouver, BC]{.map-entry-meta}
+[By Hugh Zhao · Map Area: Vancouver, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-02.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 7: Bumble Bee Occurrence and Green Space in Vancouver">
-  <img src="../img/events/maps_for_conservation/map-02-web.jpg" width="1600" height="1131" alt="Map 7: Bumble Bee Occurrence and Green Space in Vancouver" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-02.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Bumble Bee Occurrence and Green Space in Vancouver by Hugh Zhao">
+  <img src="../img/events/maps_for_conservation/map-02-web.jpg" width="1600" height="1131" alt="Bumble Bee Occurrence and Green Space in Vancouver by Hugh Zhao" loading="lazy">
 </a>
 ```
 
@@ -227,11 +227,11 @@ My Conservation topic is about how green urban spaces may serve as corridors tha
 ::: {#map-08 .map-entry}
 ## Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context {.unnumbered}
 
-[Map 8 · Global]{.map-entry-meta}
+[By Mark Rigor · Map Area: Global]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-05.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 8: Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context">
-  <img src="../img/events/maps_for_conservation/map-05-web.jpg" width="1600" height="1237" alt="Map 8: Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-05.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context by Mark Rigor">
+  <img src="../img/events/maps_for_conservation/map-05-web.jpg" width="1600" height="1237" alt="Forest-Area Change, 2000–2020: Paraguay and Brazil in Global Context by Mark Rigor" loading="lazy">
 </a>
 ```
 
@@ -254,11 +254,11 @@ The figures include both natural and planted forests. National totals can mask l
 ::: {#map-09 .map-entry}
 ## Not All Marmots Get the Same Summer! {.unnumbered}
 
-[Map 9 · Whistler, BC]{.map-entry-meta}
+[By John Brand · Map Area: Whistler, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-10.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 9: Not All Marmots Get the Same Summer!">
-  <img src="../img/events/maps_for_conservation/map-10-web.jpg" width="1600" height="1237" alt="Map 9: Not All Marmots Get the Same Summer!" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-10.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Not All Marmots Get the Same Summer! by John Brand">
+  <img src="../img/events/maps_for_conservation/map-10-web.jpg" width="1600" height="1237" alt="Not All Marmots Get the Same Summer! by John Brand" loading="lazy">
 </a>
 ```
 
@@ -282,11 +282,11 @@ As the climate warms, earlier snowmelt could increase the time available for for
 ::: {#map-10 .map-entry}
 ## Living Slopes {.unnumbered}
 
-[Map 10 · Central Java, Indonesia]{.map-entry-meta}
+[By Achmad Tijani · Map Area: Central Java, Indonesia]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-13.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 10: Living Slopes">
-  <img src="../img/events/maps_for_conservation/map-13-web.jpg" width="1600" height="1132" alt="Map 10: Living Slopes" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-13.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Living Slopes by Achmad Tijani">
+  <img src="../img/events/maps_for_conservation/map-13-web.jpg" width="1600" height="1132" alt="Living Slopes by Achmad Tijani" loading="lazy">
 </a>
 ```
 
@@ -306,11 +306,11 @@ The 2021 classification cannot identify individual crops or describe present con
 ::: {#map-11 .map-entry}
 ## Sea Ice Concentration Change Across Canada's Polar Bear Subpopulations {.unnumbered}
 
-[Map 11 · Canadian Arctic]{.map-entry-meta}
+[By Hieu Phung · Map Area: Canadian Arctic]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-01.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 11: Sea Ice Concentration Change Across Canada's Polar Bear Subpopulations">
-  <img src="../img/events/maps_for_conservation/map-01-web.jpg" width="1600" height="1131" alt="Map 11: Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-01.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Sea Ice Concentration Change Across Canada's Polar Bear Subpopulations by Hieu Phung">
+  <img src="../img/events/maps_for_conservation/map-01-web.jpg" width="1600" height="1131" alt="Sea Ice Concentration Change Across Canada&#x27;s Polar Bear Subpopulations by Hieu Phung" loading="lazy">
 </a>
 ```
 
@@ -330,11 +330,11 @@ Through this map, I hope to raise awareness of the changing Arctic environment a
 ::: {#map-12 .map-entry}
 ## Average Age of Trees on Southwest Vancouver Island {.unnumbered}
 
-[Map 12 · Vancouver Island, BC]{.map-entry-meta}
+[By Nikita Wallia · Map Area: Vancouver Island, BC]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-03.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 12: Average Age of Trees on Southwest Vancouver Island">
-  <img src="../img/events/maps_for_conservation/map-03-web.jpg" width="1600" height="972" alt="Map 12: Average Age of Trees on Southwest Vancouver Island" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-03.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Average Age of Trees on Southwest Vancouver Island by Nikita Wallia">
+  <img src="../img/events/maps_for_conservation/map-03-web.jpg" width="1600" height="972" alt="Average Age of Trees on Southwest Vancouver Island by Nikita Wallia" loading="lazy">
 </a>
 ```
 
@@ -354,11 +354,11 @@ Price, K., Holt, R. F., & Daust, D. (2020, April). *BC's old growth forest: A la
 ::: {#map-13 .map-entry}
 ## Land Use and Land Cover Dynamics in Chittagong District (2019–2024) {.unnumbered}
 
-[Map 13 · Chittagong, Bangladesh]{.map-entry-meta}
+[By Shubodip Ghosh · Map Area: Chittagong, Bangladesh]{.map-entry-meta}
 
 ```{=html}
-<a href="../img/events/maps_for_conservation/map-06.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Map 13: Land Use and Land Cover Dynamics in Chittagong District (2019–2024)">
-  <img src="../img/events/maps_for_conservation/map-06-web.jpg" width="1237" height="1600" alt="Map 13: Land Use and Land Cover Dynamics in Chittagong District (2019–2024)" loading="lazy">
+<a href="../img/events/maps_for_conservation/map-06.jpg" class="map-figure" data-gallery="maps" data-glightbox="title: Land Use and Land Cover Dynamics in Chittagong District (2019–2024) by Shubodip Ghosh">
+  <img src="../img/events/maps_for_conservation/map-06-web.jpg" width="1237" height="1600" alt="Land Use and Land Cover Dynamics in Chittagong District (2019–2024) by Shubodip Ghosh" loading="lazy">
 </a>
 ```
 

@@ -1,6 +1,6 @@
 ---
 title: "Maps for Conservation"
-subtitle: "GIS Day Map Competition · Submissions due Friday, November 13, 2026"
+subtitle: "GIS Day Map Competition · Submissions closed November 13, 2026"
 description: "Our inaugural map competition. Create a map that explores, communicates, or celebrates a conservation theme."
 date: 2026-11-11
 status: upcoming
@@ -10,6 +10,20 @@ page-layout: full
 ---
 
 ::: centered-page-content
+::: gallery-feature
+## View this year's submissions!
+
+```{=html}
+<div class="map-strip">
+<a href="2026-11-maps-for-conservation-gallery.html#map-01"><img src="../img/events/maps_for_conservation/map-08-thumb.jpg" alt="Preview of a submitted map" loading="lazy"></a>
+<a href="2026-11-maps-for-conservation-gallery.html#map-02"><img src="../img/events/maps_for_conservation/map-12-thumb.jpg" alt="Preview of a submitted map" loading="lazy"></a>
+<a href="2026-11-maps-for-conservation-gallery.html#map-03"><img src="../img/events/maps_for_conservation/map-04-thumb.jpg" alt="Preview of a submitted map" loading="lazy"></a>
+<a href="2026-11-maps-for-conservation-gallery.html#map-04"><img src="../img/events/maps_for_conservation/map-07-thumb.jpg" alt="Preview of a submitted map" loading="lazy"></a>
+</div>
+<a class="btn btn-light btn-lg" href="2026-11-maps-for-conservation-gallery.html">Map Gallery</a>
+```
+:::
+
 ![](../img/events/GIS_DAY_Banner.png){fig-align="center" width="420"}
 
 In celebration of International GIS Day (November 18), the Vancouver Chapter of the Society for Conservation GIS (SCGIS) invites mapmakers of all backgrounds and experience levels to participate in our inaugural "Maps for Conservation" competition.
@@ -59,7 +73,4 @@ Email your entry to [scgis.canada.vancouver\@gmail.com](mailto:scgis.canada.vanc
 -   Your map description (150–200 words).
 -   Your name and affiliation in the body of the email. Keep identifying information off the map itself (Rule 8).
 
-## Gallery {#gallery}
-
-We received 13 submissions! [**View all of the maps in the Maps for Conservation Gallery →**](2026-11-maps-for-conservation-gallery.qmd)
 :::
